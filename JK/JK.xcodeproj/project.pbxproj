@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A93B0004213BFC8900600ADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B0003213BFC8900600ADE /* AppDelegate.m */; };
-		A93B0007213BFC8900600ADE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B0006213BFC8900600ADE /* ViewController.m */; };
 		A93B000A213BFC8900600ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B0008213BFC8900600ADE /* Main.storyboard */; };
 		A93B000D213BFC8900600ADE /* JK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93B000B213BFC8900600ADE /* JK.xcdatamodeld */; };
 		A93B000F213BFC8B00600ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93B000E213BFC8B00600ADE /* Assets.xcassets */; };
@@ -20,6 +19,7 @@
 		A93B003B213C088B00600ADE /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0038213C088B00600ADE /* 2.jpeg */; };
 		A93B003C213C088B00600ADE /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0039213C088B00600ADE /* 1.jpeg */; };
 		A93B003F213C0C4B00600ADE /* ImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93B003E213C0C4B00600ADE /* ImageList.plist */; };
+		A99A1225213D7A9600D5A656 /* ImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99A1224213D7A9600D5A656 /* ImageCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 /* Begin PBXFileReference section */
 		A93B0002213BFC8900600ADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A93B0003213BFC8900600ADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A93B0005213BFC8900600ADE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A93B0006213BFC8900600ADE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A93B0009213BFC8900600ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A93B000C213BFC8900600ADE /* JK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JK.xcdatamodel; sourceTree = "<group>"; };
 		A93B000E213BFC8B00600ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +59,8 @@
 		A93B0039213C088B00600ADE /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		A93B003E213C0C4B00600ADE /* ImageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImageList.plist; sourceTree = "<group>"; };
 		A93BFFFF213BFC8900600ADE /* JK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99A1224213D7A9600D5A656 /* ImageCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewController.m; sourceTree = "<group>"; };
+		A99A1226213D7AB900D5A656 /* ImageCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				A93B003D213C089600600ADE /* Resources */,
 				A93B0002213BFC8900600ADE /* AppDelegate.h */,
 				A93B0003213BFC8900600ADE /* AppDelegate.m */,
-				A93B0005213BFC8900600ADE /* ViewController.h */,
-				A93B0006213BFC8900600ADE /* ViewController.m */,
+				A99A1224213D7A9600D5A656 /* ImageCollectionViewController.m */,
+				A99A1226213D7AB900D5A656 /* ImageCollectionViewController.h */,
 				A93B0008213BFC8900600ADE /* Main.storyboard */,
 				A93B000E213BFC8B00600ADE /* Assets.xcassets */,
 				A93B0010213BFC8B00600ADE /* LaunchScreen.storyboard */,
@@ -305,9 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93B0007213BFC8900600ADE /* ViewController.m in Sources */,
 				A93B000D213BFC8900600ADE /* JK.xcdatamodeld in Sources */,
 				A93B0015213BFC8B00600ADE /* main.m in Sources */,
+				A99A1225213D7A9600D5A656 /* ImageCollectionViewController.m in Sources */,
 				A93B0004213BFC8900600ADE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
