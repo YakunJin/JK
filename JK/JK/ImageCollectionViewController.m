@@ -7,6 +7,7 @@
 //
 
 #import "ImageCollectionViewController.h"
+#import "PhotoViewCell.h"
 
 @interface ImageCollectionViewController ()
 
@@ -38,26 +39,6 @@
     return 1;
 }
 
-//定义每个UICollectionView 的大小
--(CGSize)collectionView:( UICollectionView *)collectionView layout:( UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:( NSIndexPath *)indexPath {
-    return CGSizeMake((self.screenWidth - 1*(self.imageCount+1))/self.imageCount, (self.screenWidth - 1*(self.imageCount+1))/self.imageCount );
-}
-
-//定义每个UICollectionView 的边距
-- (UIEdgeInsets)collectionView:( UICollectionView *)collectionView layout:( UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:( NSInteger )section {
-    return UIEdgeInsetsMake ( 1 , 1 , 1 , 1 );
-}
-
-//设置水平间距 (同一行的cell的左右间距）
--(CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
-    return 1;
-}
-
-//垂直间距 (同一列cell上下间距)
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-    return 1;
-}
-
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     static NSString * CellIdentifier = @"ImageViewCell";
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CellIdentifier forIndexPath:indexPath];
@@ -66,23 +47,20 @@
     NSDictionary *cellDict = self.imageList[row];
     
     NSString *imagePath = [[NSString alloc] initWithFormat:@"%@.jpeg", cellDict[@"name"]];
-
-    UIImageView *imageView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:imagePath]];
-    imageView.hidden = NO;
-    imageView.contentMode = UIViewContentModeScaleAspectFill;
-    imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
-    imageView.clipsToBounds  = YES;
-    [imageView sizeToFit];
     
-    cell.autoresizesSubviews = YES;
-    cell.hidden = NO;
-    cell.contentMode = UIViewContentModeScaleAspectFill;
-    cell.autoresizingMask = UIViewAutoresizingFlexibleHeight;
-    cell.clipsToBounds  = YES;
-    [cell sizeToFit];
-    [cell.contentView addSubview:imageView];
-   
+    ((UIImageView *)cell.backgroundView).image = [self originImageScaleToSize:[UIImage imageNamed:imagePath] withScaleSize:CGSizeMake(300, 300)];
+
     return cell;
 }
+
+- (UIImage*)originImageScaleToSize:(UIImage *)originImage  withScaleSize:(CGSize)size
+{
+    UIGraphicsBeginImageContext(size);// 创建一个bitmap的context，并把它设置成为当前正在使用的context
+    [originImage drawInRect:CGRectMake(0, 0, size.width, size.height)];// 绘制改变大小的图片，self指的是原图片
+    UIImage* scaledImage = UIGraphicsGetImageFromCurrentImageContext();// 从当前context中创建一个改变大小后的图片
+    UIGraphicsEndImageContext();// 使当前的context出堆栈
+    return scaledImage;// 返回新的改变大小后的图片
+}
+
 
 @end
