@@ -45,17 +45,17 @@
 
 //定义每个UICollectionView 的边距
 - (UIEdgeInsets)collectionView:( UICollectionView *)collectionView layout:( UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:( NSInteger )section {
-    return UIEdgeInsetsMake ( 2 , 2 , 2 , 2 );
+    return UIEdgeInsetsMake ( 1 , 1 , 1 , 1 );
 }
 
 //设置水平间距 (同一行的cell的左右间距）
 -(CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
-    return 2;
+    return 1;
 }
 
 //垂直间距 (同一列cell上下间距)
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-    return 2;
+    return 1;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
