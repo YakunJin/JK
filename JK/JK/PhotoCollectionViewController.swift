@@ -43,6 +43,20 @@ class PhotoCollectionViewController: UICollectionViewController {
         uiImageCellView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: 300, height: 300));
         return cell;
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ShowPhotoDetail")
+        {
+            if let selectedIndexPath = collectionView?.indexPathsForSelectedItems?.first{
+                let photoDetailController = segue.destination as! PhotoDetailViewController;
+                let row = selectedIndexPath.row;
+                let cellDict = imageList[row] as! NSDictionary;
+                let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
+                collectionView?.addSubview(photoDetailController.view); //add subview before set value for outlet imageView
+                photoDetailController.imageView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: 300, height: 300));
+            }
+        }
+    }
 
     func originalImageScaleToSize(originImage:UIImage, withScaleSize:CGSize) -> UIImage {
         UIGraphicsBeginImageContext(withScaleSize);// 创建一个bitmap的context，并把它设置成为当前正在使用的context
