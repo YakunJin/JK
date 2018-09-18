@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Image Collection View Controller-->
+        <!--Photo Collection View Controller-->
         <scene sceneID="A3d-wx-zgg">
             <objects>
-                <collectionViewController id="BXE-fa-U8R" customClass="ImageCollectionViewController" sceneMemberID="viewController">
+                <collectionViewController id="BXE-fa-U8R" customClass="PhotoCollectionViewController" customModule="JK" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="0bl-96-jNl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                             <inset key="sectionInset" minX="3" minY="3" maxX="3" maxY="3"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="ImageViewCell" id="Aml-IW-ELJ" customClass="PhotoViewCell">
+                            <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="ImageViewCell" id="Aml-IW-ELJ">
                                 <rect key="frame" x="37.5" y="3" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -58,8 +58,8 @@
                             </collectionViewCell>
                         </cells>
                         <connections>
-                            <outlet property="dataSource" destination="BXE-fa-U8R" id="sGN-pW-KWa"/>
-                            <outlet property="delegate" destination="BXE-fa-U8R" id="gTf-Do-hYW"/>
+                            <outlet property="dataSource" destination="BXE-fa-U8R" id="oSb-Sf-K1I"/>
+                            <outlet property="delegate" destination="BXE-fa-U8R" id="Sf4-7s-0U6"/>
                         </connections>
                     </collectionView>
                 </collectionViewController>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A913FAFB213EC2C300AEF89C /* PhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A913FAFA213EC2C300AEF89C /* PhotoViewCell.m */; };
 		A93B0004213BFC8900600ADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93B0003213BFC8900600ADE /* AppDelegate.m */; };
 		A93B000A213BFC8900600ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B0008213BFC8900600ADE /* Main.storyboard */; };
 		A93B000D213BFC8900600ADE /* JK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93B000B213BFC8900600ADE /* JK.xcdatamodeld */; };
@@ -20,7 +19,7 @@
 		A93B003B213C088B00600ADE /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0038213C088B00600ADE /* 2.jpeg */; };
 		A93B003C213C088B00600ADE /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0039213C088B00600ADE /* 1.jpeg */; };
 		A93B003F213C0C4B00600ADE /* ImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93B003E213C0C4B00600ADE /* ImageList.plist */; };
-		A99A1225213D7A9600D5A656 /* ImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99A1224213D7A9600D5A656 /* ImageCollectionViewController.m */; };
+		A9D4FED8214FDD0F0011D6C4 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4FED7214FDD0F0011D6C4 /* PhotoCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +41,6 @@
 
 /* Begin PBXFileReference section */
 		A913FAEF213EA9FA00AEF89C /* JK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JK-Bridging-Header.h"; sourceTree = "<group>"; };
-		A913FAF9213EC2C300AEF89C /* PhotoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
-		A913FAFA213EC2C300AEF89C /* PhotoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
 		A93B0002213BFC8900600ADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A93B0003213BFC8900600ADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A93B0009213BFC8900600ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +60,7 @@
 		A93B0039213C088B00600ADE /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		A93B003E213C0C4B00600ADE /* ImageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImageList.plist; sourceTree = "<group>"; };
 		A93BFFFF213BFC8900600ADE /* JK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A99A1224213D7A9600D5A656 /* ImageCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewController.m; sourceTree = "<group>"; };
-		A99A1226213D7AB900D5A656 /* ImageCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewController.h; sourceTree = "<group>"; };
+		A9D4FED7214FDD0F0011D6C4 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +104,7 @@
 				A93B003D213C089600600ADE /* Resources */,
 				A93B0002213BFC8900600ADE /* AppDelegate.h */,
 				A93B0003213BFC8900600ADE /* AppDelegate.m */,
-				A99A1224213D7A9600D5A656 /* ImageCollectionViewController.m */,
-				A99A1226213D7AB900D5A656 /* ImageCollectionViewController.h */,
-				A913FAF9213EC2C300AEF89C /* PhotoViewCell.h */,
-				A913FAFA213EC2C300AEF89C /* PhotoViewCell.m */,
+				A9D4FED7214FDD0F0011D6C4 /* PhotoCollectionViewController.swift */,
 				A93B0008213BFC8900600ADE /* Main.storyboard */,
 				A93B000E213BFC8B00600ADE /* Assets.xcassets */,
 				A93B0010213BFC8B00600ADE /* LaunchScreen.storyboard */,
@@ -314,9 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93B000D213BFC8900600ADE /* JK.xcdatamodeld in Sources */,
+				A9D4FED8214FDD0F0011D6C4 /* PhotoCollectionViewController.swift in Sources */,
 				A93B0015213BFC8B00600ADE /* main.m in Sources */,
-				A99A1225213D7A9600D5A656 /* ImageCollectionViewController.m in Sources */,
-				A913FAFB213EC2C300AEF89C /* PhotoViewCell.m in Sources */,
 				A93B0004213BFC8900600ADE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +502,7 @@
 		A93B0032213BFC8B00600ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZL5YG4MY9;
@@ -529,6 +522,7 @@
 		A93B0033213BFC8B00600ADE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZL5YG4MY9;
@@ -548,6 +542,7 @@
 		A93B0035213BFC8B00600ADE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZL5YG4MY9;
 				INFOPLIST_FILE = JKUITests/Info.plist;
@@ -566,6 +561,7 @@
 		A93B0036213BFC8B00600ADE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZL5YG4MY9;
 				INFOPLIST_FILE = JKUITests/Info.plist;
