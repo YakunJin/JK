@@ -12,6 +12,13 @@ import UIKit
 class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
-        
+//        self.dismiss(animated: true, completion: nil)
+        let singleTap = UITapGestureRecognizer(target:self, action:#selector(PhotoDetailViewController.tapDetected));
+        imageView.isUserInteractionEnabled = true;
+        imageView.addGestureRecognizer(singleTap);
+    }
+    
+    func tapDetected(){
+        self.dismiss(animated: true, completion: nil);
     }
 }
