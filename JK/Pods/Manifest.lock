@@ -1,0 +1,16 @@
+PODS:
+  - YNDropDownMenu (3.0.3)
+
+DEPENDENCIES:
+  - YNDropDownMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YNDropDownMenu
+
+SPEC CHECKSUMS:
+  YNDropDownMenu: ba608568d4ac0a37385142f723da8cfc29c7ff11
+
+PODFILE CHECKSUM: 62ea8b774cbde287ef6c3f60080b5bd6de72c6b7
+
+COCOAPODS: 1.5.3
