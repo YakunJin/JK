@@ -8,20 +8,33 @@
 
 import Foundation
 import UIKit
+import YNDropDownMenu
 
-class PhotoCollectionViewController: UICollectionViewController {
+class PhotoCollectionViewController: UICollectionViewController, ImageServiceDelegate {
     var imageList: NSArray! = []
     var screenWidth: CGFloat!
     var screenHeight: CGFloat!
     var imageCount: Int!
+    var plistPath: String!
 
     override func viewDidLoad() {
-        let plistPath = Bundle.main.path(forResource: "ImageList", ofType: "plist");
-        imageList = NSArray.init(contentsOfFile: plistPath! as String);
+        plistPath = Bundle.main.path(forResource: "ImageList", ofType: "plist") as! String;
+        resetImageList(path: plistPath)
         
         let screenFrame = UIScreen.main.bounds;
         screenWidth = screenFrame.size.width;
         screenHeight = screenFrame.size.height;
+        
+        ImageService.imageServiceInstance.delegate = self
+        
+        let FilterViews = Bundle.main.loadNibNamed("FilterViews", owner: nil, options: nil) as? [UIView]
+        
+        if let _filterViews = FilterViews {
+            // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
+            let view = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 50), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
+            
+            self.view.addSubview(view)
+        }
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -56,6 +69,26 @@ class PhotoCollectionViewController: UICollectionViewController {
                 photoDetailController.imageView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: 300, height: 300));
             }
         }
+    }
+    
+    func applyFilter(filters: Array<String>!) {
+       resetImageList(path: plistPath)
+       imageList = imageList.filter {
+            let cellDict = $0 as! NSDictionary
+            let imageTags = cellDict["tags"] as! NSArray
+            
+            let canDisplayedImage = imageTags.filter {
+                let tag = $0 as! String
+                return filters.contains(tag)
+            }
+            
+            return !canDisplayedImage.isEmpty
+        } as NSArray
+        collectionView?.reloadData()
+    }
+    
+    func resetImageList(path: String) {
+        imageList = NSArray.init(contentsOfFile: path);
     }
 
     func originalImageScaleToSize(originImage:UIImage, withScaleSize:CGSize) -> UIImage {

@@ -3,42 +3,70 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Japan</string>
+		</array>
 		<key>name</key>
 		<string>4.jpeg</string>
 		<key>desc</key>
 		<string>狗1</string>
 	</dict>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Japan</string>
+		</array>
 		<key>name</key>
 		<string>5.jpeg</string>
 		<key>desc</key>
 		<string>狗2</string>
 	</dict>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Chinese</string>
+		</array>
 		<key>name</key>
 		<string>6.jpeg</string>
 		<key>desc</key>
 		<string>猫</string>
 	</dict>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Japan</string>
+		</array>
 		<key>name</key>
 		<string>7.jpeg</string>
 		<key>desc</key>
 		<string>狗3</string>
 	</dict>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Chinese</string>
+		</array>
 		<key>name</key>
 		<string>1.jpeg</string>
 		<key>desc</key>
 		<string>松鼠</string>
 	</dict>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Chinese</string>
+		</array>
 		<key>name</key>
 		<string>2.jpeg</string>
 		<key>desc</key>
 		<string>长颈鹿</string>
 	</dict>
 	<dict>
+		<key>tags</key>
+		<array>
+			<string>Europe</string>
+		</array>
 		<key>name</key>
 		<string>3.jpeg</string>
 		<key>desc</key>
