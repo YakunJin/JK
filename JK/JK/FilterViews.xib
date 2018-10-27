@@ -111,7 +111,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="283"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Built D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf0-2d-oh4">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="风格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf0-2d-oh4">
                     <rect key="frame" x="20" y="20.5" width="48.5" height="16"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="48.5" id="BvK-a1-XQj"/>
@@ -128,10 +128,8 @@
                     </constraints>
                     <segments>
                         <segment title="风格1"/>
-                        <segment title="风格1"/>
+                        <segment title="风格2"/>
                         <segment title="风格3"/>
-                        <segment title="风格4"/>
-                        <segment title="风格5"/>
                     </segments>
                     <color key="tintColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                 </segmentedControl>

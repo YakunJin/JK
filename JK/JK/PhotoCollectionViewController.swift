@@ -31,7 +31,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         
         if let _filterViews = FilterViews {
             // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
-            let view = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 50), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
+            let view = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 80), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
             
             self.view.addSubview(view)
         }
