@@ -20,6 +20,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     var cellPaddingVertical: CGFloat! = 10
     var imageCount: Int!
     var plistPath: String!
+    var dropDownView: UIView!
     var contentFlowLayout: ContentDynamicLayout = TagsStyleFlowLayout()
 
     func cellSize(indexPath: IndexPath) -> CGSize {
@@ -41,8 +42,8 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         
         if let _filterViews = FilterViews {
             // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
-            let view = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 80), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
-            self.view.addSubview(view)
+            dropDownView = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.08), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
+            self.view.addSubview(dropDownView)
         }
         
         setUpFlowLayout()
@@ -85,6 +86,8 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         screenWidth = size.width
         screenHeight = size.height
+        dropDownView.frame.size.width = screenWidth
+        dropDownView.frame.size.height = screenHeight*0.08
         collectionView?.reloadData()
     }
     
