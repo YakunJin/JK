@@ -9,14 +9,24 @@
 import Foundation
 import UIKit
 import YNDropDownMenu
+import collection_view_layouts
 
-class PhotoCollectionViewController: UICollectionViewController, ImageServiceDelegate {
+class PhotoCollectionViewController: UICollectionViewController, ImageServiceDelegate, ContentDynamicLayoutDelegate {
+    
     var imageList: NSArray! = []
     var screenWidth: CGFloat!
     var screenHeight: CGFloat!
+    var cellPaddingHorizonal: CGFloat! = 10
+    var cellPaddingVertical: CGFloat! = 10
     var imageCount: Int!
     var plistPath: String!
+    var contentFlowLayout: ContentDynamicLayout = TagsStyleFlowLayout()
 
+    func cellSize(indexPath: IndexPath) -> CGSize {
+        let screenFrame = UIScreen.main.bounds;
+        return CGSize(width: (screenFrame.width-4*cellPaddingHorizonal)/2, height: (screenFrame.width-4*cellPaddingHorizonal)/2)
+    }
+    
     override func viewDidLoad() {
         plistPath = Bundle.main.path(forResource: "ImageList", ofType: "plist") as! String;
         resetImageList(path: plistPath)
@@ -31,10 +41,11 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         
         if let _filterViews = FilterViews {
             // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
-            let view = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 80), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
-            
+            let view = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 80), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
             self.view.addSubview(view)
         }
+        
+        setUpFlowLayout()
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -53,7 +64,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         let cellDict = imageList[row] as! NSDictionary;
         let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
         let uiImageCellView = cell.backgroundView as! UIImageView;
-        uiImageCellView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: 300, height: 300));
+        uiImageCellView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: (screenWidth-4*cellPaddingHorizonal)/2, height: (screenWidth-4*cellPaddingHorizonal)/2));
         return cell;
     }
     
@@ -66,9 +77,15 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
                 let cellDict = imageList[row] as! NSDictionary;
                 let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
                 collectionView?.addSubview(photoDetailController.view); //add subview before set value for outlet imageView
-                photoDetailController.imageView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: 300, height: 300));
+                photoDetailController.imageView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: screenWidth, height: screenWidth));
             }
         }
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        screenWidth = size.width
+        screenHeight = size.height
+        collectionView?.reloadData()
     }
     
     func applyFilter(filters: Array<String>!) {
@@ -89,6 +106,16 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     
     func resetImageList(path: String) {
         imageList = NSArray.init(contentsOfFile: path);
+    }
+    
+    func setUpFlowLayout() {
+        contentFlowLayout.delegate = self
+        contentFlowLayout.contentPadding = ItemsPadding(horizontal: 10, vertical: 10)
+        contentFlowLayout.cellsPadding = ItemsPadding(horizontal: 10, vertical: 10)
+        contentFlowLayout.contentAlign = .left
+        
+        collectionView?.collectionViewLayout = contentFlowLayout
+        collectionView?.reloadData()
     }
 
     func originalImageScaleToSize(originImage:UIImage, withScaleSize:CGSize) -> UIImage {

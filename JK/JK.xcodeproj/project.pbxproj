@@ -366,12 +366,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JK/Pods-JK-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YNDropDownMenu/YNDropDownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/collection-view-layouts/collection_view_layouts.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNDropDownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/collection_view_layouts.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

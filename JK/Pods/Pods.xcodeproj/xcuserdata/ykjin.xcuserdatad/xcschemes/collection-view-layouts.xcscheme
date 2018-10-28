@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6FC87A2F2786FA4BADC74F3150FB6F6"
-               BuildableName = "Pods_JK.framework"
-               BlueprintName = "Pods-JK"
+               BlueprintIdentifier = "8FF03AFFEFD3D1BC64B995FC3FF1AA0F"
+               BuildableName = "collection_view_layouts.framework"
+               BlueprintName = "collection-view-layouts"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6FC87A2F2786FA4BADC74F3150FB6F6"
-            BuildableName = "Pods_JK.framework"
-            BlueprintName = "Pods-JK"
+            BlueprintIdentifier = "8FF03AFFEFD3D1BC64B995FC3FF1AA0F"
+            BuildableName = "collection_view_layouts.framework"
+            BlueprintName = "collection-view-layouts"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

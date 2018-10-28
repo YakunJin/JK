@@ -1,16 +1,41 @@
 PODS:
+  - collection-view-layouts/Core (0.1.2)
+  - collection-view-layouts/FacebookLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlickrLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/FlipboardLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/InstagramLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/PinterestLayout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/Px500Layout (0.1.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/TagsLayout (0.1.2):
+    - collection-view-layouts/Core
   - YNDropDownMenu (3.0.3)
 
 DEPENDENCIES:
+  - collection-view-layouts/Core
+  - collection-view-layouts/FacebookLayout
+  - collection-view-layouts/FlickrLayout
+  - collection-view-layouts/FlipboardLayout
+  - collection-view-layouts/InstagramLayout
+  - collection-view-layouts/PinterestLayout
+  - collection-view-layouts/Px500Layout
+  - collection-view-layouts/TagsLayout
   - YNDropDownMenu
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - collection-view-layouts
     - YNDropDownMenu
 
 SPEC CHECKSUMS:
+  collection-view-layouts: f3da16bf3211ecb885bb3e45160c2267edf5b65e
   YNDropDownMenu: ba608568d4ac0a37385142f723da8cfc29c7ff11
 
-PODFILE CHECKSUM: 62ea8b774cbde287ef6c3f60080b5bd6de72c6b7
+PODFILE CHECKSUM: 068ad725308e434b8619136faf593b83d4abb710
 
 COCOAPODS: 1.5.3
