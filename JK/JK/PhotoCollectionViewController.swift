@@ -42,9 +42,9 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         return imageCount;
     }
     
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1;
-    }
+//    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+//        return 1;
+//    }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let CellIdentifier = "ImageViewCell";
