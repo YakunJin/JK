@@ -20,9 +20,20 @@
 		A93B003A213C088B00600ADE /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0037213C088B00600ADE /* 3.jpeg */; };
 		A93B003B213C088B00600ADE /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0038213C088B00600ADE /* 2.jpeg */; };
 		A93B003C213C088B00600ADE /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A93B0039213C088B00600ADE /* 1.jpeg */; };
-		A93B003F213C0C4B00600ADE /* ImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93B003E213C0C4B00600ADE /* ImageList.plist */; };
+		A93B003F213C0C4B00600ADE /* ManicureList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93B003E213C0C4B00600ADE /* ManicureList.plist */; };
 		A970EFD6217B680D0077E8B9 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970EFD5217B680D0077E8B9 /* FilterView.swift */; };
 		A970EFDA217C83C40077E8B9 /* FilterViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = A970EFD9217C83C40077E8B9 /* FilterViews.xib */; };
+		A9C4374D2186E14000E18F7E /* ManicureCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4374C2186E14000E18F7E /* ManicureCollectionController.swift */; };
+		A9C4374F2186E48100E18F7E /* EyelashesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C4374E2186E48100E18F7E /* EyelashesList.plist */; };
+		A9C437512186E60700E18F7E /* w1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C437502186E60700E18F7E /* w1.jpeg */; };
+		A9C437532186E64D00E18F7E /* w2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C437522186E64D00E18F7E /* w2.jpeg */; };
+		A9C437582186E70500E18F7E /* w4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C437572186E70500E18F7E /* w4.jpeg */; };
+		A9C4375A2186E72A00E18F7E /* w5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C437592186E72A00E18F7E /* w5.jpeg */; };
+		A9C4375C2186E75B00E18F7E /* w6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C4375B2186E75B00E18F7E /* w6.jpeg */; };
+		A9C4375E2186E79A00E18F7E /* w7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C4375D2186E79A00E18F7E /* w7.jpeg */; };
+		A9C437602186E7C100E18F7E /* w8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C4375F2186E7C100E18F7E /* w8.jpeg */; };
+		A9C437622186E9B300E18F7E /* EyeLashesCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C437612186E9B300E18F7E /* EyeLashesCollectionController.swift */; };
+		A9C437642186EE7B00E18F7E /* w3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C437632186EE7B00E18F7E /* w3.jpeg */; };
 		A9D4FED8214FDD0F0011D6C4 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4FED7214FDD0F0011D6C4 /* PhotoCollectionViewController.swift */; };
 		A9D4FEDA215140D60011D6C4 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4FED9215140D60011D6C4 /* PhotoDetailViewController.swift */; };
 		A9D4FEDF215150A30011D6C4 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9D4FEDB215150A20011D6C4 /* 7.jpeg */; };
@@ -76,10 +87,21 @@
 		A93B0037213C088B00600ADE /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 		A93B0038213C088B00600ADE /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
 		A93B0039213C088B00600ADE /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
-		A93B003E213C0C4B00600ADE /* ImageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ImageList.plist; sourceTree = "<group>"; };
+		A93B003E213C0C4B00600ADE /* ManicureList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ManicureList.plist; sourceTree = "<group>"; };
 		A93BFFFF213BFC8900600ADE /* JK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A970EFD5217B680D0077E8B9 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		A970EFD9217C83C40077E8B9 /* FilterViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViews.xib; sourceTree = "<group>"; };
+		A9C4374C2186E14000E18F7E /* ManicureCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManicureCollectionController.swift; sourceTree = "<group>"; };
+		A9C4374E2186E48100E18F7E /* EyelashesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EyelashesList.plist; sourceTree = "<group>"; };
+		A9C437502186E60700E18F7E /* w1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w1.jpeg; sourceTree = "<group>"; };
+		A9C437522186E64D00E18F7E /* w2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w2.jpeg; sourceTree = "<group>"; };
+		A9C437572186E70500E18F7E /* w4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w4.jpeg; sourceTree = "<group>"; };
+		A9C437592186E72A00E18F7E /* w5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w5.jpeg; sourceTree = "<group>"; };
+		A9C4375B2186E75B00E18F7E /* w6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w6.jpeg; sourceTree = "<group>"; };
+		A9C4375D2186E79A00E18F7E /* w7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w7.jpeg; sourceTree = "<group>"; };
+		A9C4375F2186E7C100E18F7E /* w8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w8.jpeg; sourceTree = "<group>"; };
+		A9C437612186E9B300E18F7E /* EyeLashesCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLashesCollectionController.swift; sourceTree = "<group>"; };
+		A9C437632186EE7B00E18F7E /* w3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w3.jpeg; sourceTree = "<group>"; };
 		A9D4FED7214FDD0F0011D6C4 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		A9D4FED9215140D60011D6C4 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		A9D4FEDB215150A20011D6C4 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
@@ -144,6 +166,8 @@
 				A93B0002213BFC8900600ADE /* AppDelegate.h */,
 				A93B0003213BFC8900600ADE /* AppDelegate.m */,
 				A9D4FED7214FDD0F0011D6C4 /* PhotoCollectionViewController.swift */,
+				A9C437612186E9B300E18F7E /* EyeLashesCollectionController.swift */,
+				A9C4374C2186E14000E18F7E /* ManicureCollectionController.swift */,
 				A970EFD5217B680D0077E8B9 /* FilterView.swift */,
 				A970EFD9217C83C40077E8B9 /* FilterViews.xib */,
 				A9D4FED9215140D60011D6C4 /* PhotoDetailViewController.swift */,
@@ -153,7 +177,8 @@
 				A93B0013213BFC8B00600ADE /* Info.plist */,
 				A93B0014213BFC8B00600ADE /* main.m */,
 				A93B000B213BFC8900600ADE /* JK.xcdatamodeld */,
-				A93B003E213C0C4B00600ADE /* ImageList.plist */,
+				A93B003E213C0C4B00600ADE /* ManicureList.plist */,
+				A9C4374E2186E48100E18F7E /* EyelashesList.plist */,
 				A913FAEF213EA9FA00AEF89C /* JK-Bridging-Header.h */,
 			);
 			path = JK;
@@ -180,6 +205,14 @@
 		A93B003D213C089600600ADE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A9C437522186E64D00E18F7E /* w2.jpeg */,
+				A9C437502186E60700E18F7E /* w1.jpeg */,
+				A9C437592186E72A00E18F7E /* w5.jpeg */,
+				A9C437572186E70500E18F7E /* w4.jpeg */,
+				A9C4375F2186E7C100E18F7E /* w8.jpeg */,
+				A9C4375B2186E75B00E18F7E /* w6.jpeg */,
+				A9C4375D2186E79A00E18F7E /* w7.jpeg */,
+				A9C437632186EE7B00E18F7E /* w3.jpeg */,
 				A9D4FEDD215150A30011D6C4 /* 4.jpeg */,
 				A9D4FEDE215150A30011D6C4 /* 5.jpeg */,
 				A9D4FEDC215150A20011D6C4 /* 6.jpeg */,
@@ -342,13 +375,22 @@
 				A9D4FEE1215150A30011D6C4 /* 4.jpeg in Resources */,
 				A93B003B213C088B00600ADE /* 2.jpeg in Resources */,
 				A9D4FEDF215150A30011D6C4 /* 7.jpeg in Resources */,
+				A9C437582186E70500E18F7E /* w4.jpeg in Resources */,
 				A93B003C213C088B00600ADE /* 1.jpeg in Resources */,
+				A9C4375C2186E75B00E18F7E /* w6.jpeg in Resources */,
+				A9C437532186E64D00E18F7E /* w2.jpeg in Resources */,
 				A93B0012213BFC8B00600ADE /* LaunchScreen.storyboard in Resources */,
+				A9C4375A2186E72A00E18F7E /* w5.jpeg in Resources */,
+				A9C437602186E7C100E18F7E /* w8.jpeg in Resources */,
 				A93B003A213C088B00600ADE /* 3.jpeg in Resources */,
-				A93B003F213C0C4B00600ADE /* ImageList.plist in Resources */,
+				A9C4375E2186E79A00E18F7E /* w7.jpeg in Resources */,
+				A9C4374F2186E48100E18F7E /* EyelashesList.plist in Resources */,
+				A93B003F213C0C4B00600ADE /* ManicureList.plist in Resources */,
+				A9C437642186EE7B00E18F7E /* w3.jpeg in Resources */,
 				A9D4FEE2215150A30011D6C4 /* 5.jpeg in Resources */,
 				A9D4FEE0215150A30011D6C4 /* 6.jpeg in Resources */,
 				A93B000F213BFC8B00600ADE /* Assets.xcassets in Resources */,
+				A9C437512186E60700E18F7E /* w1.jpeg in Resources */,
 				A93B000A213BFC8900600ADE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,8 +512,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A93B000D213BFC8900600ADE /* JK.xcdatamodeld in Sources */,
+				A9C437622186E9B300E18F7E /* EyeLashesCollectionController.swift in Sources */,
 				A9D4FED8214FDD0F0011D6C4 /* PhotoCollectionViewController.swift in Sources */,
 				A93B0015213BFC8B00600ADE /* main.m in Sources */,
+				A9C4374D2186E14000E18F7E /* ManicureCollectionController.swift in Sources */,
 				A9D4FEDA215140D60011D6C4 /* PhotoDetailViewController.swift in Sources */,
 				A970EFD6217B680D0077E8B9 /* FilterView.swift in Sources */,
 				A93B0004213BFC8900600ADE /* AppDelegate.m in Sources */,

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Japan</string>
+		</array>
+		<key>name</key>
+		<string>w1</string>
+		<key>desc</key>
+		<string>Omega1</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Japan</string>
+		</array>
+		<key>name</key>
+		<string>w2</string>
+		<key>desc</key>
+		<string>Omega2</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Japan</string>
+		</array>
+		<key>name</key>
+		<string>w3</string>
+		<key>desc</key>
+		<string>Omega3</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Chinese</string>
+		</array>
+		<key>name</key>
+		<string>w4</string>
+		<key>desc</key>
+		<string>IWC1</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Chinese</string>
+		</array>
+		<key>name</key>
+		<string>w5</string>
+		<key>desc</key>
+		<string>IWC2</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Chinese</string>
+		</array>
+		<key>name</key>
+		<string>w6</string>
+		<key>desc</key>
+		<string>IWC3</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Europe</string>
+		</array>
+		<key>name</key>
+		<string>w7</string>
+		<key>desc</key>
+		<string>Patek Phillippe1</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>Europe</string>
+		</array>
+		<key>name</key>
+		<string>w8</string>
+		<key>desc</key>
+		<string>Patek Phillippe2</string>
+	</dict>
+</array>
+</plist>

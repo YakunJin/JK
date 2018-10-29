@@ -28,8 +28,12 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         return CGSize(width: (screenFrame.width-4*cellPaddingHorizonal)/2, height: (screenFrame.width-4*cellPaddingHorizonal)/2)
     }
     
+    func initImagePath() {
+        fatalError("Must override initImagePath")
+    }
+
     override func viewDidLoad() {
-        plistPath = Bundle.main.path(forResource: "ImageList", ofType: "plist") as! String;
+        initImagePath()
         resetImageList(path: plistPath)
         
         let screenFrame = UIScreen.main.bounds;
@@ -53,10 +57,6 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         imageCount = imageList.count;
         return imageCount;
     }
-    
-//    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-//        return 1;
-//    }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let CellIdentifier = "ImageViewCell";
