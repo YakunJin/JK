@@ -64,7 +64,7 @@
                             <outlet property="delegate" destination="BXE-fa-U8R" id="Sf4-7s-0U6"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Manicure" id="YHA-cl-HB5"/>
+                    <tabBarItem key="tabBarItem" title="Manicure" image="manicure" landscapeImage="manicure" largeContentSizeImage="manicure" selectedImage="manicure" id="YHA-cl-HB5"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ehy-9N-w8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -106,8 +106,11 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="x4I-1h-1kD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fDa-TH-s6O">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="BXE-fa-U8R" kind="relationship" relationship="viewControllers" id="jbi-Zs-7IQ"/>
@@ -172,7 +175,7 @@
                             <outlet property="delegate" destination="86B-E8-dux" id="B34-Na-4Hr"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Eyelashes" id="CCu-11-UMN"/>
+                    <tabBarItem key="tabBarItem" title="Eyelashes" image="eyeslashes" landscapeImage="eyeslashes" largeContentSizeImage="eyeslashes" selectedImage="eyeslashes" id="CCu-11-UMN"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6n-y4-VYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -180,6 +183,10 @@
             <point key="canvasLocation" x="614" y="342"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="eyeslashes" width="32" height="32"/>
+        <image name="manicure" width="32" height="32"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="0kK-R3-dKV"/>
     </inferredMetricsTieBreakers>

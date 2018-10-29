@@ -33,7 +33,7 @@
                         <segment title="Sel"/>
                         <segment title="Pol"/>
                     </segments>
-                    <color key="tintColor" red="1" green="0.64313725490196072" blue="0.035294117647058823" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSP-oT-UyX">
                     <rect key="frame" x="0.0" y="112" width="375" height="1"/>
@@ -49,7 +49,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Change Text">
-                        <color key="titleColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="cancelButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="g1c-zj-w0C"/>
@@ -62,7 +62,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Ok">
-                        <color key="titleColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="confirmButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Kd8-6p-B8z"/>
@@ -131,7 +131,7 @@
                         <segment title="风格2"/>
                         <segment title="风格3"/>
                     </segments>
-                    <color key="tintColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-bB-IK9">
                     <rect key="frame" x="20" y="113.5" width="335" height="0.5"/>
@@ -157,7 +157,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Cancel">
-                        <color key="titleColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="cancelButtonClicked:" destination="WZ5-hm-Wdy" eventType="touchUpInside" id="9YH-dg-VxL"/>
@@ -170,7 +170,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Ok">
-                        <color key="titleColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="confirmButtonClicked:" destination="WZ5-hm-Wdy" eventType="touchUpInside" id="Yak-Ej-XhI"/>
@@ -193,7 +193,7 @@
                         <segment title="2"/>
                         <segment title="3"/>
                     </segments>
-                    <color key="tintColor" red="1" green="0.64313725489999995" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KN8-BL-gqD">
                     <rect key="frame" x="187.5" y="245" width="0.5" height="26"/>

@@ -82,7 +82,6 @@ class FilterTypeView: YNDropDownView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.white
-        
         self.initViews()
     }
     

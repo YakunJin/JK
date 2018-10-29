@@ -22,6 +22,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     var plistPath: String!
     var dropDownView: UIView!
     var contentFlowLayout: ContentDynamicLayout = TagsStyleFlowLayout()
+    let FF00FF = UIColor.init(red: 255/255, green: 0/255, blue: 255/255, alpha: 1.0)
 
     func cellSize(indexPath: IndexPath) -> CGSize {
         let screenFrame = UIScreen.main.bounds;
@@ -46,7 +47,11 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         
         if let _filterViews = FilterViews {
             // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
-            dropDownView = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.08), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
+            var filterView = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.08), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
+            filterView.setImageWhens(normal: [UIImage(named: "star"),UIImage(named: "filter_open")], selectedTintColor: UIColor.purple, disabledTintColor: UIColor.gray)
+            filterView.setLabelColorWhen(normal: FF00FF, selected: UIColor.purple, disabled: UIColor.gray)
+            filterView.setLabelFontWhen(normal: .systemFont(ofSize: 12), selected: .systemFont(ofSize: 12), disabled: .systemFont(ofSize: 12))
+            dropDownView = filterView
             self.view.addSubview(dropDownView)
         }
         
