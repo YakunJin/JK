@@ -33,48 +33,6 @@ enum FilterType: String {
     case Chinese
 }
 
-class FilterStyleView: YNDropDownView {
-    @IBOutlet var tradeTypeSegmentControl: UISegmentedControl!
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        self.backgroundColor = UIColor.white
-        self.initViews()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        
-        self.initViews()
-    }
-    @IBAction func confirmButtonClicked(_ sender: Any) {
-        self.normalSelected(at: 1)
-        self.hideMenu()
-    }
-    @IBAction func cancelButtonClicked(_ sender: Any) {
-//                self.changeMenu(title: "Changed", at: 1)
-        //        self.changeMenu(title: "Changed", status: .selected, at: 0)
-        self.alwaysSelected(at: 1)
-        //        self.alwaysSelected(at: 2)
-        //        self.alwaysSelected(at: 3)
-        self.hideMenu()
-        
-    }
-    
-    override func dropDownViewOpened() {
-        print("dropDownViewOpened")
-    }
-    
-    override func dropDownViewClosed() {
-        print("dropDownViewClosed")
-    }
-    
-    func initViews() {
-        
-    }
-    
-}
-
 class FilterTypeView: YNDropDownView {
     @IBOutlet var builtDateSegmentControl: UISegmentedControl!
     @IBOutlet var householdsSegmentControl: UISegmentedControl!
@@ -92,7 +50,7 @@ class FilterTypeView: YNDropDownView {
     }
     
     @IBAction func confirmButtonClicked(_ sender: Any) {
-        self.changeMenu(title: builtDateSegmentControl.titleForSegment(at: builtDateSegmentControl.selectedSegmentIndex)!, at: 1)
+        self.changeMenu(title: builtDateSegmentControl.titleForSegment(at: builtDateSegmentControl.selectedSegmentIndex)!, at: 0)
         ImageService.imageServiceInstance.filterList = Array<String>()
         ImageService.imageServiceInstance.filterList.append(getFilterName(index: builtDateSegmentControl.selectedSegmentIndex))
         ImageService.imageServiceInstance.applyFilter()

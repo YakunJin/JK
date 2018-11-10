@@ -47,8 +47,8 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         
         if let _filterViews = FilterViews {
             // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
-            var filterView = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.08), dropDownViews: _filterViews, dropDownViewTitles: ["Style","Type"])
-            filterView.setImageWhens(normal: [UIImage(named: "star"),UIImage(named: "filter_open")], selectedTintColor: UIColor.purple, disabledTintColor: UIColor.gray)
+            var filterView = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.08), dropDownViews: _filterViews, dropDownViewTitles: ["All"])
+            filterView.setImageWhens(normal: [UIImage(named: "filter_open")], selectedTintColor: UIColor.purple, disabledTintColor: UIColor.gray)
             filterView.setLabelColorWhen(normal: FF00FF, selected: UIColor.purple, disabled: UIColor.gray)
             filterView.setLabelFontWhen(normal: .systemFont(ofSize: 12), selected: .systemFont(ofSize: 12), disabled: .systemFont(ofSize: 12))
             dropDownView = filterView
