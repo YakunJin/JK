@@ -873,42 +873,6 @@
 			};
 			name = Release;
 		};
-		05F899A0F8981E1BAA010E91172A9385 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
-				PRODUCT_MODULE_NAME = collection_view_layouts;
-				PRODUCT_NAME = collection_view_layouts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0CFE4799538B00FF8A27ECF916D1D85C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E86F91EE357215F2ED2B34CC18893348 /* Pods-JK.debug.xcconfig */;
@@ -949,9 +913,9 @@
 			};
 			name = Debug;
 		};
-		2F32BE7D7B495C014163053FC69A5FD2 /* Debug */ = {
+		17900E5AD2C81F5CE5471CA7464B7E14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
+			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -962,28 +926,66 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
-				PRODUCT_MODULE_NAME = YNDropDownMenu;
-				PRODUCT_NAME = YNDropDownMenu;
+				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
+				PRODUCT_MODULE_NAME = collection_view_layouts;
+				PRODUCT_NAME = collection_view_layouts;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		21F0DFDAB4B5E977DF9C4CDEB53825DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
+				PRODUCT_MODULE_NAME = collection_view_layouts;
+				PRODUCT_NAME = collection_view_layouts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		502BA7ACACF9D4BCB95E3D40A187C0F8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1103,6 +1105,44 @@
 			};
 			name = Release;
 		};
+		7A12AAE4A91AB619DE71144D7D3E9A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = YNDropDownMenu;
+				PRODUCT_NAME = YNDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		98F661BC7E2039A9850B383371FF3211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70C1BC1F421512F149E1356ECFB8F1C9 /* Pods-JKTests.release.xcconfig */;
@@ -1180,44 +1220,6 @@
 			};
 			name = Debug;
 		};
-		A5EC7E6B928B6F778BCCC4BE6FE6C8FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
-				PRODUCT_MODULE_NAME = YNDropDownMenu;
-				PRODUCT_NAME = YNDropDownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1282,9 +1284,9 @@
 			};
 			name = Debug;
 		};
-		EBA06C069D31A9675DA7ED2ED122F345 /* Release */ = {
+		EB8C52947B24ECE50EBC77EF0EC1B11F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
+			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1295,30 +1297,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
-				PRODUCT_MODULE_NAME = collection_view_layouts;
-				PRODUCT_NAME = collection_view_layouts;
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = YNDropDownMenu;
+				PRODUCT_NAME = YNDropDownMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1335,8 +1335,8 @@
 		24BFD65C616587EB9F02B386DE64C30F /* Build configuration list for PBXNativeTarget "collection-view-layouts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F899A0F8981E1BAA010E91172A9385 /* Debug */,
-				EBA06C069D31A9675DA7ED2ED122F345 /* Release */,
+				17900E5AD2C81F5CE5471CA7464B7E14 /* Debug */,
+				21F0DFDAB4B5E977DF9C4CDEB53825DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1371,8 +1371,8 @@
 		A81D15476CDB0E122540FD79071E3F83 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F32BE7D7B495C014163053FC69A5FD2 /* Debug */,
-				A5EC7E6B928B6F778BCCC4BE6FE6C8FD /* Release */,
+				EB8C52947B24ECE50EBC77EF0EC1B11F /* Debug */,
+				7A12AAE4A91AB619DE71144D7D3E9A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
