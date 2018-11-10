@@ -17,7 +17,7 @@ class PhotoDetailViewController: UIViewController {
         imageView.addGestureRecognizer(singleTap);
     }
     
-    func tapDetected(){
+    @objc func tapDetected(){
         self.dismiss(animated: true, completion: nil);
     }
 }

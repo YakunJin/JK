@@ -8,34 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0A3847DE6BDF7D9B56AB92EE91A6CAB2 /* Pods-JKUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F889612915A0F33CA86FC33A3D0834 /* Pods-JKUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DF35A3693AA4FA21A3DFC57A904032D /* YNDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDC518B6D52611B2C609DFE2D470194 /* YNDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F9B6128B356FAA652BAF03EB04B244D /* YNDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3D04D8523E55E9F10F398A538C06F /* YNDropDownButton.swift */; };
-		110DC00463547933BC6C58AFA7725587 /* YNDropDownDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC7EF35FE853993A35EE9E3FA8D944 /* YNDropDownDelegate.swift */; };
+		0DF35A3693AA4FA21A3DFC57A904032D /* YNDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 443F70353D261702152EE1CA919D41FB /* YNDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F9B6128B356FAA652BAF03EB04B244D /* YNDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785F9C46D8B1B2AF67EBA969F3D8555 /* YNDropDownButton.swift */; };
+		110DC00463547933BC6C58AFA7725587 /* YNDropDownDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FCC55E23DFCB8A38E1DFABAE1787A /* YNDropDownDelegate.swift */; };
 		1A644BE9930874FC88B9D97B3684A52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		28DE6EB2787A5E018B0B8370FAFB1A19 /* FlipboardStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0F66871AB55B606E320F904E52C67 /* FlipboardStyleFlowLayout.swift */; };
-		2D1416EF25221ABB05BD3A4665724441 /* collection-view-layouts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD79DC103D3B8ED308322226013C5F7D /* collection-view-layouts-dummy.m */; };
+		28DE6EB2787A5E018B0B8370FAFB1A19 /* FlipboardStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A24D480226C40D743FCFBAF6E0F19 /* FlipboardStyleFlowLayout.swift */; };
+		2D1416EF25221ABB05BD3A4665724441 /* collection-view-layouts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 800D74078C72DCB1C6B61A83E64E0DD5 /* collection-view-layouts-dummy.m */; };
 		31ABAB9CD43BE97FF55EB4E636B4AFDF /* Pods-JKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA14A9E06A5EF768BAFBFF95BB9F45D /* Pods-JKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35ED6AEDFA7C0BDF62B4EE501DA311D6 /* YNDropDownStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD197270B3E78328F0364393BF6102 /* YNDropDownStatus.swift */; };
+		35ED6AEDFA7C0BDF62B4EE501DA311D6 /* YNDropDownStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BEDB7E582EEEFC107A54B3AC40168B /* YNDropDownStatus.swift */; };
 		47DC4B167B0AD9A01A2BC92649B22DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		67AA2AE22D9C7C57AC0AC9BA719D3C67 /* YNDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BA98E5AC33B143E30DE1C80D9F14A /* YNDropDownView.swift */; };
-		6F7D19BDC01A79D2B6248C77DADE59EB /* FlickrStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9D78EDBC799FCA6E66A7330168E65 /* FlickrStyleFlowLayout.swift */; };
+		67AA2AE22D9C7C57AC0AC9BA719D3C67 /* YNDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48196DBAB6FF467E9917D2BC2E4C64AA /* YNDropDownView.swift */; };
+		6F7D19BDC01A79D2B6248C77DADE59EB /* FlickrStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971F687ECCF9407FAE6A5F317D50922 /* FlickrStyleFlowLayout.swift */; };
 		71CD4CD61DC47DFC0FDCB46F05C5BA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		7F6613ED0C962DCE5B4120579C6DA176 /* YNDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8546769D3C5E65A6BBB8979B82847D /* YNDropDownMenu.swift */; };
+		7F6613ED0C962DCE5B4120579C6DA176 /* YNDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839404481ACBDE93F2EC5FA0B5FCAB3 /* YNDropDownMenu.swift */; };
 		8897F952C9532D8BD529EC4A0A64F83B /* Pods-JKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4BE26F2679C9041FA176A097D2F392 /* Pods-JKTests-dummy.m */; };
 		90181395931E15BF021B07A78A24A4B2 /* Pods-JK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE98E653DBB1948CB45CF54E3EA76C5 /* Pods-JK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B7CCEA38B1067EF26FB05B85B6C8683 /* InstagramStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10852DCB3D4CB9347987E077D9CEFE82 /* InstagramStyleFlowLayout.swift */; };
-		A2ED0F77B51EF56697539D7179856994 /* YNDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7095E56163FCD7AB0E68CFA1762D0 /* YNDropDownMenu-dummy.m */; };
-		A5B0AE7A363D6A6B283383509303D8B1 /* collection-view-layouts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 041765B8D72A7BFB95E6A73F4D32123D /* collection-view-layouts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A911E05A18FE18E4BD7D0C9020FF76A6 /* Px500StyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CCBE02BEBED3EC614893350A7AD2F3 /* Px500StyleFlowLayout.swift */; };
+		9B7CCEA38B1067EF26FB05B85B6C8683 /* InstagramStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA8E7580FFD4FCD6CAAE574FE0C863 /* InstagramStyleFlowLayout.swift */; };
+		A2ED0F77B51EF56697539D7179856994 /* YNDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB8FDCCE2A885FA8DC89272523158 /* YNDropDownMenu-dummy.m */; };
+		A5B0AE7A363D6A6B283383509303D8B1 /* collection-view-layouts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64413F2917DD5117293D28D2C5781040 /* collection-view-layouts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A911E05A18FE18E4BD7D0C9020FF76A6 /* Px500StyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E0743F9F6F0B2BE4CFCF3E4C6F4A9 /* Px500StyleFlowLayout.swift */; };
 		B3320FF951BA6E9FC753E85EA61496B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		B9399595C90EDACC62DAD5E979E0DBA6 /* YNDropDownDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C32BC8B9A98D8F9A42490E64FDEF316 /* YNDropDownDeprecated.swift */; };
+		B9399595C90EDACC62DAD5E979E0DBA6 /* YNDropDownDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8156518ECF6D82E68DF11D1234A72ADC /* YNDropDownDeprecated.swift */; };
 		BC845EDD4FBBBAACD36E08EAFACF8106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		C17FED9D9EA00674D0FEBE6A6B08CF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		C453B46AE4D6DB958FC3CA814C81AA86 /* TagsStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067F0DD02AC672EE78074A755ED5DFCF /* TagsStyleFlowLayout.swift */; };
-		CC1E621783B1BDD4317067A363FC547E /* PinterestStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD984147A13DE7922AF8D124AF5839E /* PinterestStyleFlowLayout.swift */; };
-		DD3225A3BD95EA2D036B821E4BED9282 /* FacebookStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51B3A7A8B6181C47762FE8AB0FFF05 /* FacebookStyleFlowLayout.swift */; };
+		C453B46AE4D6DB958FC3CA814C81AA86 /* TagsStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA91882881C178D389E3900D775D27 /* TagsStyleFlowLayout.swift */; };
+		CC1E621783B1BDD4317067A363FC547E /* PinterestStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C124DC649E96C2F1D43249802F123 /* PinterestStyleFlowLayout.swift */; };
+		DD3225A3BD95EA2D036B821E4BED9282 /* FacebookStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570271C3E9632805027D5B6C0C48820 /* FacebookStyleFlowLayout.swift */; };
 		E1CD45A0C8E88E4789C1FD24B54EAFD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		E431B1CDB6AD3282223AC7871C78D03A /* ContentDynamicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B4B845243F29B63E75EB1F6BB6D85 /* ContentDynamicLayout.swift */; };
+		E431B1CDB6AD3282223AC7871C78D03A /* ContentDynamicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2FAF5E0075960CDD0E6A7D6DC1A46D /* ContentDynamicLayout.swift */; };
 		FB74FF14D0534DE8A5A53496FFB930C6 /* Pods-JK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5478A4ED9B32ECD71016CE7BDE2AC4D /* Pods-JK-dummy.m */; };
 		FD7CB31AC5105FE41892F03C3AAAFCE6 /* Pods-JKUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0C088C12A25C623B8D924CC4148265 /* Pods-JKUITests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -72,69 +72,111 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CCBE02BEBED3EC614893350A7AD2F3 /* Px500StyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Px500StyleFlowLayout.swift; path = "collection-view-layouts/Classes/Px500StyleFlowLayout/Px500StyleFlowLayout.swift"; sourceTree = "<group>"; };
-		041765B8D72A7BFB95E6A73F4D32123D /* collection-view-layouts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-umbrella.h"; sourceTree = "<group>"; };
-		067F0DD02AC672EE78074A755ED5DFCF /* TagsStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagsStyleFlowLayout.swift; path = "collection-view-layouts/Classes/TagsStyleFlowLayout/TagsStyleFlowLayout.swift"; sourceTree = "<group>"; };
-		0CBD197270B3E78328F0364393BF6102 /* YNDropDownStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownStatus.swift; path = YNDropDownMenu/YNDropDownStatus.swift; sourceTree = "<group>"; };
+		004E0743F9F6F0B2BE4CFCF3E4C6F4A9 /* Px500StyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Px500StyleFlowLayout.swift; path = "collection-view-layouts/Classes/Px500StyleFlowLayout/Px500StyleFlowLayout.swift"; sourceTree = "<group>"; };
+		00A9D7A7C1BB5B2D598737E21D4D403A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		0597DFED45DC78ED6DCDC77DF7D05CA9 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		05B56DF4AE8880603B58B21985589AEF /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		05BED66E14CED94F7C30D436FAABA8BC /* YNDropDownDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownDelegate.html; path = docs/Protocols/YNDropDownDelegate.html; sourceTree = "<group>"; };
+		05D08DE8261E5EF0A60219B3B38DF1DA /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		09E85FD719F526BBA5348B532DCD0024 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACA8E7580FFD4FCD6CAAE574FE0C863 /* InstagramStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramStyleFlowLayout.swift; path = "collection-view-layouts/Classes/InstagramStyleFlowLayout/InstagramStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		0E46BA324A3BA686CE3E1261946DCC74 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		0EC287E03039FEBCB0017993958D0EB1 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
 		10296C5A52980484B71F4BEFECF09F6E /* Pods-JKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		10852DCB3D4CB9347987E077D9CEFE82 /* InstagramStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramStyleFlowLayout.swift; path = "collection-view-layouts/Classes/InstagramStyleFlowLayout/InstagramStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		14420BBD9BE803C31A2AFD102F24AAE0 /* Pods-JKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKTests-resources.sh"; sourceTree = "<group>"; };
-		148BA98E5AC33B143E30DE1C80D9F14A /* YNDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownView.swift; path = YNDropDownMenu/YNDropDownView.swift; sourceTree = "<group>"; };
+		16D90D40682BC9A5F50D86D4BD80E90E /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		1785F9C46D8B1B2AF67EBA969F3D8555 /* YNDropDownButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownButton.swift; path = YNDropDownMenu/YNDropDownButton.swift; sourceTree = "<group>"; };
 		18E2B00295F02D862A9C7C43EBCF9E2E /* Pods-JKUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		24EEA3287332BDF068B9B1C5FAE377D6 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		260A89FA768CB04B80CB7F2DE5A0D439 /* Pods-JKUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKUITests-resources.sh"; sourceTree = "<group>"; };
-		27833D59C9C91A923F38C9763490063C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2971F687ECCF9407FAE6A5F317D50922 /* FlickrStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlickrStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlickrStyleFlowLayout/FlickrStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "collection-view-layouts.xcconfig"; sourceTree = "<group>"; };
+		2C437E704D3C4719F8B9A01BD0C37842 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		2C6AB7C8C44B40767F7D3CAD597BFAE1 /* YNDropDownMenu.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownMenu.tgz; path = docs/docsets/YNDropDownMenu.tgz; sourceTree = "<group>"; };
 		2D55D978B5DD5AC7A1D90AC6BD755A7E /* YNDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YNDropDownMenu.framework; path = YNDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DDC518B6D52611B2C609DFE2D470194 /* YNDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
-		2ED0F66871AB55B606E320F904E52C67 /* FlipboardStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipboardStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlipboardStyleFlowLayout/FlipboardStyleFlowLayout.swift"; sourceTree = "<group>"; };
-		3020B27C8DEC5DD373F0C6B405C22E16 /* collection-view-layouts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "collection-view-layouts.xcconfig"; sourceTree = "<group>"; };
 		329E86C3837016E50639790ADE7F3A28 /* Pods-JK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JK.release.xcconfig"; sourceTree = "<group>"; };
-		3B314FE7C20857D72112F21E90D36365 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DD3382832D6087E79916E1C4D9D5DBA /* YNDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNDropDownMenu.xcconfig; sourceTree = "<group>"; };
-		4FD984147A13DE7922AF8D124AF5839E /* PinterestStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestStyleFlowLayout.swift; path = "collection-view-layouts/Classes/PinterestStyleFlowLayout/PinterestStyleFlowLayout.swift"; sourceTree = "<group>"; };
-		57A7095E56163FCD7AB0E68CFA1762D0 /* YNDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		33B3AB8C062D817DBFC106CF0AEE0BCA /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		3839404481ACBDE93F2EC5FA0B5FCAB3 /* YNDropDownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownMenu.swift; path = YNDropDownMenu/YNDropDownMenu.swift; sourceTree = "<group>"; };
+		395573B4F3CCC5F022449D32F41F9884 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		3964F8D14F2721AFF85354123825EEDA /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		443F70353D261702152EE1CA919D41FB /* YNDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
+		48196DBAB6FF467E9917D2BC2E4C64AA /* YNDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownView.swift; path = YNDropDownMenu/YNDropDownView.swift; sourceTree = "<group>"; };
+		49E7EF0622AA57F382E8CCE78C46968C /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		4EA1966F018E5B3EA4FEC5209667DE2B /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		5226615340D37BA4E1F746558349EA7E /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		541BB8EF8119DC24570B9C3F5FFE4107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		57EF9335EB18C6EFBE6922ED2C92C381 /* collection-view-layouts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-prefix.pch"; sourceTree = "<group>"; };
 		5A055C912A46FFEABB10288579C91879 /* Pods-JKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E159D1B7E7E5AAAAFE67C7D25776E40 /* collection-view-layouts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-prefix.pch"; sourceTree = "<group>"; };
-		6C32BC8B9A98D8F9A42490E64FDEF316 /* YNDropDownDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDeprecated.swift; path = YNDropDownMenu/YNDropDownDeprecated.swift; sourceTree = "<group>"; };
+		64413F2917DD5117293D28D2C5781040 /* collection-view-layouts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-umbrella.h"; sourceTree = "<group>"; };
+		671FCC55E23DFCB8A38E1DFABAE1787A /* YNDropDownDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDelegate.swift; path = YNDropDownMenu/YNDropDownDelegate.swift; sourceTree = "<group>"; };
+		69BEDB7E582EEEFC107A54B3AC40168B /* YNDropDownStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownStatus.swift; path = YNDropDownMenu/YNDropDownStatus.swift; sourceTree = "<group>"; };
+		6CBC24839E7294EC06C82568F5048203 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6EAA91882881C178D389E3900D775D27 /* TagsStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagsStyleFlowLayout.swift; path = "collection-view-layouts/Classes/TagsStyleFlowLayout/TagsStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		70829428B0BFB279CCCC905AF0443F68 /* Pods-JKUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKUITests.modulemap"; sourceTree = "<group>"; };
 		70C1BC1F421512F149E1356ECFB8F1C9 /* Pods-JKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTests.release.xcconfig"; sourceTree = "<group>"; };
-		742FF90C49E7288246326FEE8633565E /* collection-view-layouts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "collection-view-layouts.modulemap"; sourceTree = "<group>"; };
+		7B4A372C9A7C60BEA38B8C68758C4165 /* YNDropDownDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownDelegate.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Protocols/YNDropDownDelegate.html; sourceTree = "<group>"; };
+		800D74078C72DCB1C6B61A83E64E0DD5 /* collection-view-layouts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "collection-view-layouts-dummy.m"; sourceTree = "<group>"; };
+		81364F15081318025C13238BA25C571A /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		814A24D480226C40D743FCFBAF6E0F19 /* FlipboardStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipboardStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlipboardStyleFlowLayout/FlipboardStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		8156518ECF6D82E68DF11D1234A72ADC /* YNDropDownDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDeprecated.swift; path = YNDropDownMenu/YNDropDownDeprecated.swift; sourceTree = "<group>"; };
 		833AA26947CA51E17E392D0326494699 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E9D3B322472E68E034779CD563767 /* Pods-JKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87A8701AC176236724BDBE72F4FADA7E /* YNDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YNDropDownMenu.modulemap; sourceTree = "<group>"; };
+		87F9C705C485E9F17C622D0E593E0452 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
 		8A40E1AD563B62C9906A9DA234E8B782 /* Pods-JKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKTests-frameworks.sh"; sourceTree = "<group>"; };
 		8D70A414D8D22A3E6812DA21E9D2A584 /* Pods-JK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D9EF1BBA18950AD4CF72D83C1FB3386 /* collection_view_layouts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = collection_view_layouts.framework; path = "collection-view-layouts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E51B3A7A8B6181C47762FE8AB0FFF05 /* FacebookStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FacebookStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FacebookStyleFlowLayout/FacebookStyleFlowLayout.swift"; sourceTree = "<group>"; };
-		8EA3D04D8523E55E9F10F398A538C06F /* YNDropDownButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownButton.swift; path = YNDropDownMenu/YNDropDownButton.swift; sourceTree = "<group>"; };
+		8E61B193E00C23EF3E24DD3822EEE08F /* YNDropDownMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YNDropDownMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E85B5C2BD24D33E2CEBDBFC58E4CD37 /* YNDropDownMenu.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownMenu.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Classes/YNDropDownMenu.html; sourceTree = "<group>"; };
+		8EBB5BB9739D092A0F0B529D8CFB7C30 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		8EE98E653DBB1948CB45CF54E3EA76C5 /* Pods-JK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JK-umbrella.h"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D8546769D3C5E65A6BBB8979B82847D /* YNDropDownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownMenu.swift; path = YNDropDownMenu/YNDropDownMenu.swift; sourceTree = "<group>"; };
 		9F8B7D3B02BA3C6CB86AD0EE6A57791D /* Pods_JKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKTests.framework; path = "Pods-JKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A228A083DA2085A0C8AC9C6ADCCF6043 /* collection-view-layouts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "collection-view-layouts.modulemap"; sourceTree = "<group>"; };
 		A42B4BBE6B4453EB24709CB1E6C868D3 /* Pods-JKUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKUITests-frameworks.sh"; sourceTree = "<group>"; };
-		AC33D9927F6D31A6BABDAD2E61D72DFF /* YNDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
-		B5CC7EF35FE853993A35EE9E3FA8D944 /* YNDropDownDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDelegate.swift; path = YNDropDownMenu/YNDropDownDelegate.swift; sourceTree = "<group>"; };
+		A6AB741A99E6C92DB16B649362A68DAC /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		A721851A6D99D5CC51BE57E3CA60350F /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		A802A011E840BF19CA36D795BB1DAD4A /* YNStatus.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNStatus.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Enums/YNStatus.html; sourceTree = "<group>"; };
+		AB093B6EA1AD15857D0B0DB51E20E33C /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		AD3C01C5AA7F7446E5440A0A499FBF4D /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		AE45258021D210C594506CF1FA1878DB /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		B6A30B70146E020374626018CF6D80DC /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		B81C124DC649E96C2F1D43249802F123 /* PinterestStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestStyleFlowLayout.swift; path = "collection-view-layouts/Classes/PinterestStyleFlowLayout/PinterestStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		BA3BB8FDCCE2A885FA8DC89272523158 /* YNDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNDropDownMenu-dummy.m"; sourceTree = "<group>"; };
 		BC08C5C8BF66E5D2A762DAAD72EE7BF9 /* Pods-JKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD08C4313E6C8BCE5C1859DFF6D6B292 /* YNDropDownView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownView.html; path = docs/Classes/YNDropDownView.html; sourceTree = "<group>"; };
 		BDA14A9E06A5EF768BAFBFF95BB9F45D /* Pods-JKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKTests-umbrella.h"; sourceTree = "<group>"; };
 		C002754A278AC4DE1A6883C970659AC9 /* Pods-JK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JK-acknowledgements.plist"; sourceTree = "<group>"; };
 		C25C6A884BA148ECA0C990D87D53DBCD /* Pods-JKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKTests.modulemap"; sourceTree = "<group>"; };
+		C570271C3E9632805027D5B6C0C48820 /* FacebookStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FacebookStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FacebookStyleFlowLayout/FacebookStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		C8D3B53EC4635D63ED83EBE89FC8F570 /* Pods-JKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA2A854B591F4A1F260B5A1AE7A5CA0 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		CB3949D5B9F11B2DC54B4D1E05926C50 /* Pods-JK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JK-resources.sh"; sourceTree = "<group>"; };
 		CBBDDEFF8D153E0D7583B845C07973F3 /* Pods-JK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JK.modulemap"; sourceTree = "<group>"; };
-		D19494712C5FE80AD1EF281A6F217B26 /* YNDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YNDropDownMenu.modulemap; sourceTree = "<group>"; };
 		D33EFE3C4B4CC3A841B0D16F544C6BD5 /* Pods-JKUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D37A595300D5032110A45AAFBC87D992 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/YNDropDownMenu.docset/Contents/Info.plist; sourceTree = "<group>"; };
 		D5478A4ED9B32ECD71016CE7BDE2AC4D /* Pods-JK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JK-dummy.m"; sourceTree = "<group>"; };
 		D7E794F7686E92B0913F48577771FD1D /* Pods_JK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JK.framework; path = "Pods-JK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EFF48512695F7330261129D5F6565B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC5B4B845243F29B63E75EB1F6BB6D85 /* ContentDynamicLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentDynamicLayout.swift; path = "collection-view-layouts/Classes/Core/ContentDynamicLayout.swift"; sourceTree = "<group>"; };
+		D8098D224A809E0914C7CD8210952A4E /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		D9CF72281FBD759231CE53B3FFFF1C3A /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		DD1F46552CD2217B30E821C8ED9AD640 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
 		DDA7198C5B5D75E77E3B738E10E9633F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42DD7390F38E7066B49466097E0D2C8 /* YNDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
 		E86F91EE357215F2ED2B34CC18893348 /* Pods-JK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JK.debug.xcconfig"; sourceTree = "<group>"; };
+		E944C01E3BF231A595E6B931A2AC5E68 /* YNDropDownView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownView.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Classes/YNDropDownView.html; sourceTree = "<group>"; };
 		EA474C11881AFA70E66FE5E04FB007C6 /* Pods-JK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JK-frameworks.sh"; sourceTree = "<group>"; };
+		EA69B1D4F46DD78C1A2D2B4E9442DC88 /* YNStatus.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNStatus.html; path = docs/Enums/YNStatus.html; sourceTree = "<group>"; };
+		EC57B8100052DF8C538F8A8EED324E6A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
 		ED0C088C12A25C623B8D924CC4148265 /* Pods-JKUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKUITests-dummy.m"; sourceTree = "<group>"; };
+		EE2FAF5E0075960CDD0E6A7D6DC1A46D /* ContentDynamicLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentDynamicLayout.swift; path = "collection-view-layouts/Classes/Core/ContentDynamicLayout.swift"; sourceTree = "<group>"; };
+		EE6CD17AD290E68C31FF457362F6E9BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F889612915A0F33CA86FC33A3D0834 /* Pods-JKUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKUITests-umbrella.h"; sourceTree = "<group>"; };
-		F7F9D78EDBC799FCA6E66A7330168E65 /* FlickrStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlickrStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlickrStyleFlowLayout/FlickrStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		FC4BE26F2679C9041FA176A097D2F392 /* Pods-JKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKTests-dummy.m"; sourceTree = "<group>"; };
-		FD79DC103D3B8ED308322226013C5F7D /* collection-view-layouts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "collection-view-layouts-dummy.m"; sourceTree = "<group>"; };
+		FD05E8C1CEE0E21A7F712D0CE744667C /* YNDropDownMenu.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownMenu.html; path = docs/Classes/YNDropDownMenu.html; sourceTree = "<group>"; };
 		FEDA17062F8D934A002B2D3D570EABAB /* Pods_JKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKUITests.framework; path = "Pods-JKUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -184,12 +226,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B6F10FDC5362993D09E06F99A6DCAA0 /* Px500Layout */ = {
+		0C04F1CD65A21132E99B523A13455128 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				03CCBE02BEBED3EC614893350A7AD2F3 /* Px500StyleFlowLayout.swift */,
+				A228A083DA2085A0C8AC9C6ADCCF6043 /* collection-view-layouts.modulemap */,
+				29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */,
+				800D74078C72DCB1C6B61A83E64E0DD5 /* collection-view-layouts-dummy.m */,
+				57EF9335EB18C6EFBE6922ED2C92C381 /* collection-view-layouts-prefix.pch */,
+				64413F2917DD5117293D28D2C5781040 /* collection-view-layouts-umbrella.h */,
+				EE6CD17AD290E68C31FF457362F6E9BA /* Info.plist */,
 			);
-			name = Px500Layout;
+			name = "Support Files";
+			path = "../Target Support Files/collection-view-layouts";
+			sourceTree = "<group>";
+		};
+		0DFB6FADB9FF3EE1A3B27A50467C25A3 /* TagsLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA91882881C178D389E3900D775D27 /* TagsStyleFlowLayout.swift */,
+			);
+			name = TagsLayout;
+			sourceTree = "<group>";
+		};
+		0E051CF334B4A9C48C1C54EDBAEF224A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2C437E704D3C4719F8B9A01BD0C37842 /* badge.svg */,
+				A721851A6D99D5CC51BE57E3CA60350F /* badge.svg */,
+				AB093B6EA1AD15857D0B0DB51E20E33C /* carat.png */,
+				8EBB5BB9739D092A0F0B529D8CFB7C30 /* carat.png */,
+				B6A30B70146E020374626018CF6D80DC /* Classes.html */,
+				D8098D224A809E0914C7CD8210952A4E /* Classes.html */,
+				395573B4F3CCC5F022449D32F41F9884 /* dash.png */,
+				5226615340D37BA4E1F746558349EA7E /* dash.png */,
+				49E7EF0622AA57F382E8CCE78C46968C /* docSet.dsidx */,
+				DD1F46552CD2217B30E821C8ED9AD640 /* Enums.html */,
+				0E46BA324A3BA686CE3E1261946DCC74 /* Enums.html */,
+				05B56DF4AE8880603B58B21985589AEF /* gh.png */,
+				CAA2A854B591F4A1F260B5A1AE7A5CA0 /* gh.png */,
+				4EA1966F018E5B3EA4FEC5209667DE2B /* highlight.css */,
+				0EC287E03039FEBCB0017993958D0EB1 /* highlight.css */,
+				AD3C01C5AA7F7446E5440A0A499FBF4D /* index.html */,
+				81364F15081318025C13238BA25C571A /* index.html */,
+				D37A595300D5032110A45AAFBC87D992 /* Info.plist */,
+				33B3AB8C062D817DBFC106CF0AEE0BCA /* jazzy.css */,
+				3964F8D14F2721AFF85354123825EEDA /* jazzy.css */,
+				0597DFED45DC78ED6DCDC77DF7D05CA9 /* jazzy.js */,
+				AE45258021D210C594506CF1FA1878DB /* jazzy.js */,
+				24EEA3287332BDF068B9B1C5FAE377D6 /* jquery.min.js */,
+				87F9C705C485E9F17C622D0E593E0452 /* jquery.min.js */,
+				6CBC24839E7294EC06C82568F5048203 /* LICENSE */,
+				D9CF72281FBD759231CE53B3FFFF1C3A /* Protocols.html */,
+				16D90D40682BC9A5F50D86D4BD80E90E /* Protocols.html */,
+				541BB8EF8119DC24570B9C3F5FFE4107 /* README.md */,
+				05D08DE8261E5EF0A60219B3B38DF1DA /* search.json */,
+				A6AB741A99E6C92DB16B649362A68DAC /* search.json */,
+				EC57B8100052DF8C538F8A8EED324E6A /* undocumented.json */,
+				00A9D7A7C1BB5B2D598737E21D4D403A /* undocumented.json */,
+				7B4A372C9A7C60BEA38B8C68758C4165 /* YNDropDownDelegate.html */,
+				05BED66E14CED94F7C30D436FAABA8BC /* YNDropDownDelegate.html */,
+				FD05E8C1CEE0E21A7F712D0CE744667C /* YNDropDownMenu.html */,
+				8E85B5C2BD24D33E2CEBDBFC58E4CD37 /* YNDropDownMenu.html */,
+				8E61B193E00C23EF3E24DD3822EEE08F /* YNDropDownMenu.podspec */,
+				2C6AB7C8C44B40767F7D3CAD597BFAE1 /* YNDropDownMenu.tgz */,
+				E944C01E3BF231A595E6B931A2AC5E68 /* YNDropDownView.html */,
+				BD08C4313E6C8BCE5C1859DFF6D6B292 /* YNDropDownView.html */,
+				EA69B1D4F46DD78C1A2D2B4E9442DC88 /* YNStatus.html */,
+				A802A011E840BF19CA36D795BB1DAD4A /* YNStatus.html */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F04B007214B2746C8D358E46B9D6EC1 /* collection-view-layouts */ = {
+			isa = PBXGroup;
+			children = (
+				41BD3090A626977521265C7DD27D285A /* Core */,
+				DBE4FCAEBED78CADAAD32E850AFD96D9 /* FacebookLayout */,
+				EDD52C475CC20E39455EF4A679090394 /* FlickrLayout */,
+				A34458C6344DA13F1EA1C1A48351E4DB /* FlipboardLayout */,
+				C71457FC10653C3C9B72D1748CE35DDC /* InstagramLayout */,
+				54928E912F3D1FDED773D7076E21D823 /* PinterestLayout */,
+				F9E1C292E805715FF6A6AEA8BC0046E1 /* Px500Layout */,
+				0C04F1CD65A21132E99B523A13455128 /* Support Files */,
+				0DFB6FADB9FF3EE1A3B27A50467C25A3 /* TagsLayout */,
+			);
+			name = "collection-view-layouts";
+			path = "collection-view-layouts";
 			sourceTree = "<group>";
 		};
 		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
@@ -201,12 +323,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1BFBE2899BA79B00187FCFF8963855CD /* FlipboardLayout */ = {
+		22FABA0C4F7B467BB8DAC449F62D71E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2ED0F66871AB55B606E320F904E52C67 /* FlipboardStyleFlowLayout.swift */,
+				09E85FD719F526BBA5348B532DCD0024 /* Info.plist */,
+				87A8701AC176236724BDBE72F4FADA7E /* YNDropDownMenu.modulemap */,
+				1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */,
+				BA3BB8FDCCE2A885FA8DC89272523158 /* YNDropDownMenu-dummy.m */,
+				E42DD7390F38E7066B49466097E0D2C8 /* YNDropDownMenu-prefix.pch */,
+				443F70353D261702152EE1CA919D41FB /* YNDropDownMenu-umbrella.h */,
 			);
-			name = FlipboardLayout;
+			name = "Support Files";
+			path = "../JK/JK/Pods/Target Support Files/YNDropDownMenu";
 			sourceTree = "<group>";
 		};
 		342482CFF1E85BDABD6CB2593D988CFF /* Pods-JKTests */ = {
@@ -225,6 +353,14 @@
 			);
 			name = "Pods-JKTests";
 			path = "Target Support Files/Pods-JKTests";
+			sourceTree = "<group>";
+		};
+		41BD3090A626977521265C7DD27D285A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EE2FAF5E0075960CDD0E6A7D6DC1A46D /* ContentDynamicLayout.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -253,10 +389,10 @@
 			path = "Target Support Files/Pods-JK";
 			sourceTree = "<group>";
 		};
-		63A23D2A8EFF26EE791A0CEF6DE880E5 /* PinterestLayout */ = {
+		54928E912F3D1FDED773D7076E21D823 /* PinterestLayout */ = {
 			isa = PBXGroup;
 			children = (
-				4FD984147A13DE7922AF8D124AF5839E /* PinterestStyleFlowLayout.swift */,
+				B81C124DC649E96C2F1D43249802F123 /* PinterestStyleFlowLayout.swift */,
 			);
 			name = PinterestLayout;
 			sourceTree = "<group>";
@@ -291,124 +427,88 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79D90E614A5B3B36A9135F2DACD62A72 /* YNDropDownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				8EA3D04D8523E55E9F10F398A538C06F /* YNDropDownButton.swift */,
-				B5CC7EF35FE853993A35EE9E3FA8D944 /* YNDropDownDelegate.swift */,
-				6C32BC8B9A98D8F9A42490E64FDEF316 /* YNDropDownDeprecated.swift */,
-				9D8546769D3C5E65A6BBB8979B82847D /* YNDropDownMenu.swift */,
-				0CBD197270B3E78328F0364393BF6102 /* YNDropDownStatus.swift */,
-				148BA98E5AC33B143E30DE1C80D9F14A /* YNDropDownView.swift */,
-				F6CD91484B0E1B7D4FA5BA5409866424 /* Support Files */,
-			);
-			name = YNDropDownMenu;
-			path = YNDropDownMenu;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				89895631CC1F5C87949AC57A6F69D80D /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				CBB5B285C3C45B2E5589A23FFCD32AA4 /* Pods */,
+				816110D3E90CB1336F192AF26C6230F0 /* Pods */,
 				6FCFEC827BD8866BC7B9875C449D72F9 /* Products */,
 				FBE98F4F33EB3A44D4B38A8882E1ACBD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F26BD6095CB8BED20B5A09744A5946D /* TagsLayout */ = {
+		816110D3E90CB1336F192AF26C6230F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				067F0DD02AC672EE78074A755ED5DFCF /* TagsStyleFlowLayout.swift */,
-			);
-			name = TagsLayout;
-			sourceTree = "<group>";
-		};
-		9BD951547DD05B9FB74CD7CC7A1C1C3A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				DC5B4B845243F29B63E75EB1F6BB6D85 /* ContentDynamicLayout.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A23D05C24169D3979C8803CD668DB871 /* collection-view-layouts */ = {
-			isa = PBXGroup;
-			children = (
-				9BD951547DD05B9FB74CD7CC7A1C1C3A /* Core */,
-				C1E40739A130A67F2A7024308152FE7D /* FacebookLayout */,
-				DDE5078D707F06D3CB82555791636D55 /* FlickrLayout */,
-				1BFBE2899BA79B00187FCFF8963855CD /* FlipboardLayout */,
-				CEA0CABFCE86741399F40E7CA6969A8B /* InstagramLayout */,
-				63A23D2A8EFF26EE791A0CEF6DE880E5 /* PinterestLayout */,
-				0B6F10FDC5362993D09E06F99A6DCAA0 /* Px500Layout */,
-				F43F43C1231DC0B187B0AA960F09304F /* Support Files */,
-				8F26BD6095CB8BED20B5A09744A5946D /* TagsLayout */,
-			);
-			name = "collection-view-layouts";
-			path = "collection-view-layouts";
-			sourceTree = "<group>";
-		};
-		C1E40739A130A67F2A7024308152FE7D /* FacebookLayout */ = {
-			isa = PBXGroup;
-			children = (
-				8E51B3A7A8B6181C47762FE8AB0FFF05 /* FacebookStyleFlowLayout.swift */,
-			);
-			name = FacebookLayout;
-			sourceTree = "<group>";
-		};
-		CBB5B285C3C45B2E5589A23FFCD32AA4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A23D05C24169D3979C8803CD668DB871 /* collection-view-layouts */,
-				79D90E614A5B3B36A9135F2DACD62A72 /* YNDropDownMenu */,
+				0F04B007214B2746C8D358E46B9D6EC1 /* collection-view-layouts */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CEA0CABFCE86741399F40E7CA6969A8B /* InstagramLayout */ = {
+		89895631CC1F5C87949AC57A6F69D80D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				10852DCB3D4CB9347987E077D9CEFE82 /* InstagramStyleFlowLayout.swift */,
+				DA9CEB7463E0931FB09E7995E009D883 /* YNDropDownMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A34458C6344DA13F1EA1C1A48351E4DB /* FlipboardLayout */ = {
+			isa = PBXGroup;
+			children = (
+				814A24D480226C40D743FCFBAF6E0F19 /* FlipboardStyleFlowLayout.swift */,
+			);
+			name = FlipboardLayout;
+			sourceTree = "<group>";
+		};
+		C71457FC10653C3C9B72D1748CE35DDC /* InstagramLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA8E7580FFD4FCD6CAAE574FE0C863 /* InstagramStyleFlowLayout.swift */,
 			);
 			name = InstagramLayout;
 			sourceTree = "<group>";
 		};
-		DDE5078D707F06D3CB82555791636D55 /* FlickrLayout */ = {
+		DA9CEB7463E0931FB09E7995E009D883 /* YNDropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				F7F9D78EDBC799FCA6E66A7330168E65 /* FlickrStyleFlowLayout.swift */,
+				1785F9C46D8B1B2AF67EBA969F3D8555 /* YNDropDownButton.swift */,
+				671FCC55E23DFCB8A38E1DFABAE1787A /* YNDropDownDelegate.swift */,
+				8156518ECF6D82E68DF11D1234A72ADC /* YNDropDownDeprecated.swift */,
+				3839404481ACBDE93F2EC5FA0B5FCAB3 /* YNDropDownMenu.swift */,
+				69BEDB7E582EEEFC107A54B3AC40168B /* YNDropDownStatus.swift */,
+				48196DBAB6FF467E9917D2BC2E4C64AA /* YNDropDownView.swift */,
+				0E051CF334B4A9C48C1C54EDBAEF224A /* Pod */,
+				22FABA0C4F7B467BB8DAC449F62D71E2 /* Support Files */,
+			);
+			name = YNDropDownMenu;
+			path = ../../../YNDropDownMenu;
+			sourceTree = "<group>";
+		};
+		DBE4FCAEBED78CADAAD32E850AFD96D9 /* FacebookLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C570271C3E9632805027D5B6C0C48820 /* FacebookStyleFlowLayout.swift */,
+			);
+			name = FacebookLayout;
+			sourceTree = "<group>";
+		};
+		EDD52C475CC20E39455EF4A679090394 /* FlickrLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2971F687ECCF9407FAE6A5F317D50922 /* FlickrStyleFlowLayout.swift */,
 			);
 			name = FlickrLayout;
 			sourceTree = "<group>";
 		};
-		F43F43C1231DC0B187B0AA960F09304F /* Support Files */ = {
+		F9E1C292E805715FF6A6AEA8BC0046E1 /* Px500Layout */ = {
 			isa = PBXGroup;
 			children = (
-				742FF90C49E7288246326FEE8633565E /* collection-view-layouts.modulemap */,
-				3020B27C8DEC5DD373F0C6B405C22E16 /* collection-view-layouts.xcconfig */,
-				FD79DC103D3B8ED308322226013C5F7D /* collection-view-layouts-dummy.m */,
-				5E159D1B7E7E5AAAAFE67C7D25776E40 /* collection-view-layouts-prefix.pch */,
-				041765B8D72A7BFB95E6A73F4D32123D /* collection-view-layouts-umbrella.h */,
-				3B314FE7C20857D72112F21E90D36365 /* Info.plist */,
+				004E0743F9F6F0B2BE4CFCF3E4C6F4A9 /* Px500StyleFlowLayout.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/collection-view-layouts";
-			sourceTree = "<group>";
-		};
-		F6CD91484B0E1B7D4FA5BA5409866424 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27833D59C9C91A923F38C9763490063C /* Info.plist */,
-				D19494712C5FE80AD1EF281A6F217B26 /* YNDropDownMenu.modulemap */,
-				4DD3382832D6087E79916E1C4D9D5DBA /* YNDropDownMenu.xcconfig */,
-				57A7095E56163FCD7AB0E68CFA1762D0 /* YNDropDownMenu-dummy.m */,
-				AC33D9927F6D31A6BABDAD2E61D72DFF /* YNDropDownMenu-prefix.pch */,
-				2DDC518B6D52611B2C609DFE2D470194 /* YNDropDownMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YNDropDownMenu";
+			name = Px500Layout;
 			sourceTree = "<group>";
 		};
 		FBE98F4F33EB3A44D4B38A8882E1ACBD /* Targets Support Files */ = {
@@ -775,7 +875,7 @@
 		};
 		05F899A0F8981E1BAA010E91172A9385 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3020B27C8DEC5DD373F0C6B405C22E16 /* collection-view-layouts.xcconfig */;
+			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -851,7 +951,7 @@
 		};
 		2F32BE7D7B495C014163053FC69A5FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DD3382832D6087E79916E1C4D9D5DBA /* YNDropDownMenu.xcconfig */;
+			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1082,7 +1182,7 @@
 		};
 		A5EC7E6B928B6F778BCCC4BE6FE6C8FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DD3382832D6087E79916E1C4D9D5DBA /* YNDropDownMenu.xcconfig */;
+			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1184,7 +1284,7 @@
 		};
 		EBA06C069D31A9675DA7ED2ED122F345 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3020B27C8DEC5DD373F0C6B405C22E16 /* collection-view-layouts.xcconfig */;
+			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

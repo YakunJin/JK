@@ -25,17 +25,20 @@ DEPENDENCIES:
   - collection-view-layouts/PinterestLayout
   - collection-view-layouts/Px500Layout
   - collection-view-layouts/TagsLayout
-  - YNDropDownMenu
+  - YNDropDownMenu (from `../../YNDropDownMenu`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - collection-view-layouts
-    - YNDropDownMenu
+
+EXTERNAL SOURCES:
+  YNDropDownMenu:
+    :path: "../../YNDropDownMenu"
 
 SPEC CHECKSUMS:
   collection-view-layouts: f3da16bf3211ecb885bb3e45160c2267edf5b65e
-  YNDropDownMenu: ba608568d4ac0a37385142f723da8cfc29c7ff11
+  YNDropDownMenu: d05515edb6eedeb7e6c25d8310cccb4a846131be
 
-PODFILE CHECKSUM: 068ad725308e434b8619136faf593b83d4abb710
+PODFILE CHECKSUM: 52e237c03148aa78bc51ec6a01837b8000a02628
 
 COCOAPODS: 1.5.3
