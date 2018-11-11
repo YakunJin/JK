@@ -14,6 +14,7 @@ PODS:
     - collection-view-layouts/Core
   - collection-view-layouts/TagsLayout (0.1.2):
     - collection-view-layouts/Core
+  - SMSegmentView (1.3.1)
   - YNDropDownMenu (3.0.3)
 
 DEPENDENCIES:
@@ -25,11 +26,13 @@ DEPENDENCIES:
   - collection-view-layouts/PinterestLayout
   - collection-view-layouts/Px500Layout
   - collection-view-layouts/TagsLayout
+  - SMSegmentView
   - YNDropDownMenu (from `../../YNDropDownMenu`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - collection-view-layouts
+    - SMSegmentView
 
 EXTERNAL SOURCES:
   YNDropDownMenu:
@@ -37,8 +40,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   collection-view-layouts: f3da16bf3211ecb885bb3e45160c2267edf5b65e
+  SMSegmentView: 3c3aa59206a67a7c8a9e05593f84aa875eddeeba
   YNDropDownMenu: d05515edb6eedeb7e6c25d8310cccb4a846131be
 
-PODFILE CHECKSUM: 52e237c03148aa78bc51ec6a01837b8000a02628
+PODFILE CHECKSUM: a44e7626958fc15e1fd82d221853f5e7277562e8
 
 COCOAPODS: 1.5.3

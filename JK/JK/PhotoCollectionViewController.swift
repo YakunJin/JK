@@ -54,6 +54,10 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
             filterView.setLabelFontWhen(normal: .systemFont(ofSize: 12), selected: .systemFont(ofSize: 12), disabled: .systemFont(ofSize: 12))
             filterView.backgroundColor = UIColor.black
             filterView.setBackgroundColor(color: UIColor.black)
+            filterView.backgroundBlurEnabled = true
+            filterView.blurEffectStyle = .extraLight
+            filterView.blurEffectViewAlpha = 0
+            filterView.backgroundColor = UIColor.clear
             dropDownView = filterView
             self.view.addSubview(dropDownView)
         }

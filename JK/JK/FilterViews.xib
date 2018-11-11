@@ -12,50 +12,18 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="WZ5-hm-Wdy" customClass="FilterTypeView" customModule="JK" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="283"/>
+            <rect key="frame" x="0.0" y="0.0" width="205" height="283"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="风格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf0-2d-oh4">
-                    <rect key="frame" x="20" y="20.5" width="48.5" height="16"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="48.5" id="BvK-a1-XQj"/>
-                        <constraint firstAttribute="height" constant="16" id="RVD-p0-wuh"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yl7-Fx-ZBX">
-                    <rect key="frame" x="20" y="61" width="335" height="29"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="28" id="J33-6O-uD9"/>
-                    </constraints>
-                    <segments>
-                        <segment title="风格1"/>
-                        <segment title="风格2"/>
-                        <segment title="风格3"/>
-                    </segments>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </segmentedControl>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-bB-IK9">
-                    <rect key="frame" x="20" y="113.5" width="335" height="0.5"/>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-bB-IK9">
+                    <rect key="frame" x="20" y="113.5" width="165" height="0.5"/>
                     <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="0.5" id="vjr-20-ijE"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1M-EP-stn">
-                    <rect key="frame" x="20" y="138" width="36.5" height="16"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="16" id="eeM-ZB-IaW"/>
-                        <constraint firstAttribute="width" constant="36.5" id="td9-sb-Qpu"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vn-VM-eMe">
-                    <rect key="frame" x="0.0" y="233" width="187.5" height="50"/>
+                    <rect key="frame" x="0.0" y="233" width="102.5" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="iON-bz-JI0"/>
                     </constraints>
@@ -68,7 +36,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7v-Sk-Kco">
-                    <rect key="frame" x="187.5" y="233" width="187.5" height="50"/>
+                    <rect key="frame" x="102.5" y="233" width="102.5" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="OnL-H8-ayC"/>
                     </constraints>
@@ -81,26 +49,14 @@
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-Bd-dEX">
-                    <rect key="frame" x="0.0" y="232.5" width="375" height="0.5"/>
+                    <rect key="frame" x="0.0" y="232.5" width="205" height="0.5"/>
                     <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="0.5" id="rhv-i2-qgd"/>
                     </constraints>
                 </view>
-                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2jS-BB-YSU">
-                    <rect key="frame" x="20" y="178.5" width="335" height="29"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="28" id="SUv-Gx-eiz"/>
-                    </constraints>
-                    <segments>
-                        <segment title="1"/>
-                        <segment title="2"/>
-                        <segment title="3"/>
-                    </segments>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KN8-BL-gqD">
-                    <rect key="frame" x="187.5" y="245" width="0.5" height="26"/>
+                    <rect key="frame" x="102.5" y="245" width="0.5" height="26"/>
                     <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="0.5" id="WG3-UJ-Dfa"/>
@@ -110,28 +66,17 @@
             </subviews>
             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="2jS-BB-YSU" secondAttribute="trailing" constant="20" id="0kb-pn-f8T"/>
-                <constraint firstItem="1Bc-bB-IK9" firstAttribute="top" secondItem="yl7-Fx-ZBX" secondAttribute="bottom" constant="24.5" id="40v-2P-BCI"/>
-                <constraint firstItem="D1M-EP-stn" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" constant="20" id="54S-1y-d2e"/>
                 <constraint firstAttribute="trailing" secondItem="lTb-Bd-dEX" secondAttribute="trailing" id="8GH-us-9zY"/>
-                <constraint firstItem="D1M-EP-stn" firstAttribute="top" secondItem="1Bc-bB-IK9" secondAttribute="bottom" constant="24" id="98e-op-qYe"/>
-                <constraint firstItem="yl7-Fx-ZBX" firstAttribute="top" secondItem="kf0-2d-oh4" secondAttribute="bottom" constant="24.5" id="CTs-s0-epM"/>
-                <constraint firstItem="kf0-2d-oh4" firstAttribute="top" secondItem="WZ5-hm-Wdy" secondAttribute="top" constant="20.5" id="Hvr-dj-oWR"/>
                 <constraint firstItem="1Bc-bB-IK9" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" constant="20" id="KVi-yl-xMq"/>
-                <constraint firstItem="kf0-2d-oh4" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" constant="20" id="L57-4B-fS4"/>
                 <constraint firstAttribute="bottom" secondItem="N7v-Sk-Kco" secondAttribute="bottom" id="LUv-4E-V9E"/>
                 <constraint firstAttribute="trailing" secondItem="1Bc-bB-IK9" secondAttribute="trailing" constant="20" id="OfY-HF-j4l"/>
                 <constraint firstItem="KN8-BL-gqD" firstAttribute="leading" secondItem="8Vn-VM-eMe" secondAttribute="trailing" id="W1s-Qt-pca"/>
                 <constraint firstItem="N7v-Sk-Kco" firstAttribute="width" secondItem="8Vn-VM-eMe" secondAttribute="width" id="XYS-pH-5S9"/>
                 <constraint firstItem="N7v-Sk-Kco" firstAttribute="top" secondItem="lTb-Bd-dEX" secondAttribute="bottom" id="fWH-oW-RSy"/>
-                <constraint firstAttribute="trailing" secondItem="yl7-Fx-ZBX" secondAttribute="trailing" constant="20" id="flJ-fE-C8T"/>
                 <constraint firstItem="N7v-Sk-Kco" firstAttribute="leading" secondItem="8Vn-VM-eMe" secondAttribute="trailing" id="gYb-eT-Ogj"/>
-                <constraint firstItem="2jS-BB-YSU" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" constant="20" id="huY-Yn-QZU"/>
-                <constraint firstItem="2jS-BB-YSU" firstAttribute="top" secondItem="D1M-EP-stn" secondAttribute="bottom" constant="24.5" id="k64-Mf-huS"/>
                 <constraint firstAttribute="bottom" secondItem="KN8-BL-gqD" secondAttribute="bottom" constant="12" id="kT6-Mi-594"/>
                 <constraint firstAttribute="trailing" secondItem="N7v-Sk-Kco" secondAttribute="trailing" id="nMc-kK-G7N"/>
                 <constraint firstAttribute="bottom" secondItem="8Vn-VM-eMe" secondAttribute="bottom" id="nep-PE-94K"/>
-                <constraint firstItem="yl7-Fx-ZBX" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" constant="20" id="qN5-p1-eGe"/>
                 <constraint firstItem="lTb-Bd-dEX" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" id="utX-Qz-0Qk"/>
                 <constraint firstItem="8Vn-VM-eMe" firstAttribute="leading" secondItem="WZ5-hm-Wdy" secondAttribute="leading" id="xLb-oq-fn2"/>
             </constraints>
@@ -139,11 +84,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <connections>
-                <outlet property="builtDateSegmentControl" destination="yl7-Fx-ZBX" id="AmK-X1-JbC"/>
-                <outlet property="householdsSegmentControl" destination="2jS-BB-YSU" id="i8n-we-2pQ"/>
-            </connections>
-            <point key="canvasLocation" x="-74.400000000000006" y="-135.38230884557723"/>
+            <point key="canvasLocation" x="-210.40000000000001" y="-135.38230884557723"/>
         </view>
     </objects>
 </document>

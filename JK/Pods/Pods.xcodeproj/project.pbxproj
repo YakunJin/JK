@@ -8,81 +8,98 @@
 
 /* Begin PBXBuildFile section */
 		0A3847DE6BDF7D9B56AB92EE91A6CAB2 /* Pods-JKUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F889612915A0F33CA86FC33A3D0834 /* Pods-JKUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DF35A3693AA4FA21A3DFC57A904032D /* YNDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 443F70353D261702152EE1CA919D41FB /* YNDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F9B6128B356FAA652BAF03EB04B244D /* YNDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785F9C46D8B1B2AF67EBA969F3D8555 /* YNDropDownButton.swift */; };
-		110DC00463547933BC6C58AFA7725587 /* YNDropDownDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FCC55E23DFCB8A38E1DFABAE1787A /* YNDropDownDelegate.swift */; };
+		11AF3D21E83FC119727F15A3206AA1D2 /* YNDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48196DBAB6FF467E9917D2BC2E4C64AA /* YNDropDownView.swift */; };
+		124E962B8334D29FB1A0023D99801B07 /* YNDropDownDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8156518ECF6D82E68DF11D1234A72ADC /* YNDropDownDeprecated.swift */; };
 		1A644BE9930874FC88B9D97B3684A52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		28DE6EB2787A5E018B0B8370FAFB1A19 /* FlipboardStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A24D480226C40D743FCFBAF6E0F19 /* FlipboardStyleFlowLayout.swift */; };
-		2D1416EF25221ABB05BD3A4665724441 /* collection-view-layouts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 800D74078C72DCB1C6B61A83E64E0DD5 /* collection-view-layouts-dummy.m */; };
+		28DE6EB2787A5E018B0B8370FAFB1A19 /* FlipboardStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0DBA26C60D63198858E6ED6A38CEC /* FlipboardStyleFlowLayout.swift */; };
+		2D1416EF25221ABB05BD3A4665724441 /* collection-view-layouts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B9A947A13DEC68FFDE4565C668784 /* collection-view-layouts-dummy.m */; };
 		31ABAB9CD43BE97FF55EB4E636B4AFDF /* Pods-JKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA14A9E06A5EF768BAFBFF95BB9F45D /* Pods-JKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35ED6AEDFA7C0BDF62B4EE501DA311D6 /* YNDropDownStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BEDB7E582EEEFC107A54B3AC40168B /* YNDropDownStatus.swift */; };
+		3B8516D0DF9BE43AC44546AFD393F424 /* SMSegmentViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1448EA74D4A1B0503D23C7759C33C67 /* SMSegmentViewConstants.swift */; };
+		3C684AA8E501672A177CA0A8F00DC192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		3EA463BC49D9B454C0208B5AAAC97DD9 /* SMSegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFCB6233015322582A658E8DA4E313C /* SMSegmentView-dummy.m */; };
 		47DC4B167B0AD9A01A2BC92649B22DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		67AA2AE22D9C7C57AC0AC9BA719D3C67 /* YNDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48196DBAB6FF467E9917D2BC2E4C64AA /* YNDropDownView.swift */; };
-		6F7D19BDC01A79D2B6248C77DADE59EB /* FlickrStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971F687ECCF9407FAE6A5F317D50922 /* FlickrStyleFlowLayout.swift */; };
-		71CD4CD61DC47DFC0FDCB46F05C5BA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		7F6613ED0C962DCE5B4120579C6DA176 /* YNDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839404481ACBDE93F2EC5FA0B5FCAB3 /* YNDropDownMenu.swift */; };
+		57054E62907B631BA52ADB4310DC8574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5A13EB9CCC5B0566A6FB73C08D8AE805 /* SMSegmentAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB081CAE20EB5608D8DB54DCEEADEA /* SMSegmentAppearance.swift */; };
+		6F7D19BDC01A79D2B6248C77DADE59EB /* FlickrStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08132BFEE06B8A35B300A568461FF574 /* FlickrStyleFlowLayout.swift */; };
+		766C2A0AC580EE788B1775D088855E5E /* YNDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB8FDCCE2A885FA8DC89272523158 /* YNDropDownMenu-dummy.m */; };
 		8897F952C9532D8BD529EC4A0A64F83B /* Pods-JKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4BE26F2679C9041FA176A097D2F392 /* Pods-JKTests-dummy.m */; };
-		90181395931E15BF021B07A78A24A4B2 /* Pods-JK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE98E653DBB1948CB45CF54E3EA76C5 /* Pods-JK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B7CCEA38B1067EF26FB05B85B6C8683 /* InstagramStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA8E7580FFD4FCD6CAAE574FE0C863 /* InstagramStyleFlowLayout.swift */; };
-		A2ED0F77B51EF56697539D7179856994 /* YNDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB8FDCCE2A885FA8DC89272523158 /* YNDropDownMenu-dummy.m */; };
-		A5B0AE7A363D6A6B283383509303D8B1 /* collection-view-layouts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64413F2917DD5117293D28D2C5781040 /* collection-view-layouts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A911E05A18FE18E4BD7D0C9020FF76A6 /* Px500StyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E0743F9F6F0B2BE4CFCF3E4C6F4A9 /* Px500StyleFlowLayout.swift */; };
-		B3320FF951BA6E9FC753E85EA61496B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		B9399595C90EDACC62DAD5E979E0DBA6 /* YNDropDownDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8156518ECF6D82E68DF11D1234A72ADC /* YNDropDownDeprecated.swift */; };
+		90B36FABD3C64836E54D041F2265755E /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5474CEF0FC1B782C2A8D799216AEC62 /* SMSegment.swift */; };
+		92954A693C0D43B9AA0BABC53B39A45F /* YNDropDownStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BEDB7E582EEEFC107A54B3AC40168B /* YNDropDownStatus.swift */; };
+		9B7CCEA38B1067EF26FB05B85B6C8683 /* InstagramStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB62A9EA6FDF10134DC59030D8FA5A1 /* InstagramStyleFlowLayout.swift */; };
+		9DCC10C3FA7B75210AE3E7A75E04EE28 /* SMSegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1301F02E1B428C0DC7017662DD8C2433 /* SMSegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B0AE7A363D6A6B283383509303D8B1 /* collection-view-layouts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE96F2FB788E8676EE3CC4628287A39 /* collection-view-layouts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A911E05A18FE18E4BD7D0C9020FF76A6 /* Px500StyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCCD3D973A3665B9E7728077257761 /* Px500StyleFlowLayout.swift */; };
+		B41C009BDEEDDA175CB1B76DCE81A1BF /* YNDropDownDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671FCC55E23DFCB8A38E1DFABAE1787A /* YNDropDownDelegate.swift */; };
+		B8E1D980127F5643CB92476F4DCAC010 /* SMSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01F1EAF6B668C4B097BB25FCB10D47 /* SMSegmentView.swift */; };
 		BC845EDD4FBBBAACD36E08EAFACF8106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		BEB5172E63A5AF388D2CC3854C579ED2 /* YNDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839404481ACBDE93F2EC5FA0B5FCAB3 /* YNDropDownMenu.swift */; };
+		BF05B538450007D46876564EBDBB50E3 /* Pods-JK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE98E653DBB1948CB45CF54E3EA76C5 /* Pods-JK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C17FED9D9EA00674D0FEBE6A6B08CF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		C453B46AE4D6DB958FC3CA814C81AA86 /* TagsStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA91882881C178D389E3900D775D27 /* TagsStyleFlowLayout.swift */; };
-		CC1E621783B1BDD4317067A363FC547E /* PinterestStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C124DC649E96C2F1D43249802F123 /* PinterestStyleFlowLayout.swift */; };
-		DD3225A3BD95EA2D036B821E4BED9282 /* FacebookStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570271C3E9632805027D5B6C0C48820 /* FacebookStyleFlowLayout.swift */; };
-		E1CD45A0C8E88E4789C1FD24B54EAFD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		E431B1CDB6AD3282223AC7871C78D03A /* ContentDynamicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2FAF5E0075960CDD0E6A7D6DC1A46D /* ContentDynamicLayout.swift */; };
-		FB74FF14D0534DE8A5A53496FFB930C6 /* Pods-JK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5478A4ED9B32ECD71016CE7BDE2AC4D /* Pods-JK-dummy.m */; };
+		C40B5D6D117BAB182366B5A5140A5364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C453B46AE4D6DB958FC3CA814C81AA86 /* TagsStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FAC731800C9FBF19104AB0D304EB5 /* TagsStyleFlowLayout.swift */; };
+		CC1E621783B1BDD4317067A363FC547E /* PinterestStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282AE66BC281E7C47370848F7F7BEA4F /* PinterestStyleFlowLayout.swift */; };
+		CC7AD05F507FC1A211C34E1D3C90EA15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		DD3225A3BD95EA2D036B821E4BED9282 /* FacebookStyleFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E39E8EF04D81EADF95447442E87A0 /* FacebookStyleFlowLayout.swift */; };
+		E03AFF1678A9A5B19D97DEC25D99DBE5 /* Pods-JK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5478A4ED9B32ECD71016CE7BDE2AC4D /* Pods-JK-dummy.m */; };
+		E1FB13F25E4A4A3414D92DAE27CD7A1D /* YNDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 443F70353D261702152EE1CA919D41FB /* YNDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E431B1CDB6AD3282223AC7871C78D03A /* ContentDynamicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6433D8C7932A3EB31BFCBF785018D3 /* ContentDynamicLayout.swift */; };
+		EDB53AF85EDE4EAFC74C0C9812A07A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		F8F05B652BB6A8DAAB9D4DE4C86B6A4D /* YNDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785F9C46D8B1B2AF67EBA969F3D8555 /* YNDropDownButton.swift */; };
 		FD7CB31AC5105FE41892F03C3AAAFCE6 /* Pods-JKUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0C088C12A25C623B8D924CC4148265 /* Pods-JKUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34BF5E2BF6CCD40DB1A3E898DD0DFAEA /* PBXContainerItemProxy */ = {
+		05641CD08ED114A6751256BA673E43F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A6B7DD253A36092AB63D3D957DF7B0;
+			remoteInfo = SMSegmentView;
+		};
+		B22E0F8F6967DC1AA4E76D76D0F4F9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B116C37C8600D66520E678C91463979E;
+			remoteInfo = "Pods-JK";
+		};
+		C2F6E04898A0042F98895517CCDA4A6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FF03AFFEFD3D1BC64B995FC3FF1AA0F;
 			remoteInfo = "collection-view-layouts";
 		};
-		B22E0F8F6967DC1AA4E76D76D0F4F9CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6FC87A2F2786FA4BADC74F3150FB6F6;
-			remoteInfo = "Pods-JK";
-		};
-		BA13345059F06A34F365CBBD7204D180 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53BC066FEB2615DE0B66A6C25AEBDFBC;
-			remoteInfo = YNDropDownMenu;
-		};
 		CF220CCF69A3D5DF3B97C52EC7650492 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6FC87A2F2786FA4BADC74F3150FB6F6;
+			remoteGlobalIDString = B116C37C8600D66520E678C91463979E;
 			remoteInfo = "Pods-JK";
+		};
+		F32214E8115C83AD615FE20184E5CC60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B66456458DECDA3B24B88B86B745B89;
+			remoteInfo = YNDropDownMenu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004E0743F9F6F0B2BE4CFCF3E4C6F4A9 /* Px500StyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Px500StyleFlowLayout.swift; path = "collection-view-layouts/Classes/Px500StyleFlowLayout/Px500StyleFlowLayout.swift"; sourceTree = "<group>"; };
 		00A9D7A7C1BB5B2D598737E21D4D403A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
 		0597DFED45DC78ED6DCDC77DF7D05CA9 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
 		05B56DF4AE8880603B58B21985589AEF /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
 		05BED66E14CED94F7C30D436FAABA8BC /* YNDropDownDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownDelegate.html; path = docs/Protocols/YNDropDownDelegate.html; sourceTree = "<group>"; };
 		05D08DE8261E5EF0A60219B3B38DF1DA /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		08132BFEE06B8A35B300A568461FF574 /* FlickrStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlickrStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlickrStyleFlowLayout/FlickrStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		09E85FD719F526BBA5348B532DCD0024 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ACA8E7580FFD4FCD6CAAE574FE0C863 /* InstagramStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramStyleFlowLayout.swift; path = "collection-view-layouts/Classes/InstagramStyleFlowLayout/InstagramStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		0DC09202D41000A4C7D4D03B6DD2A6C8 /* SMSegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMSegmentView.xcconfig; sourceTree = "<group>"; };
 		0E46BA324A3BA686CE3E1261946DCC74 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
 		0EC287E03039FEBCB0017993958D0EB1 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		0F5B9A947A13DEC68FFDE4565C668784 /* collection-view-layouts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "collection-view-layouts-dummy.m"; sourceTree = "<group>"; };
 		10296C5A52980484B71F4BEFECF09F6E /* Pods-JKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1301F02E1B428C0DC7017662DD8C2433 /* SMSegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSegmentView-umbrella.h"; sourceTree = "<group>"; };
 		14420BBD9BE803C31A2AFD102F24AAE0 /* Pods-JKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKTests-resources.sh"; sourceTree = "<group>"; };
 		16D90D40682BC9A5F50D86D4BD80E90E /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
 		1785F9C46D8B1B2AF67EBA969F3D8555 /* YNDropDownButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownButton.swift; path = YNDropDownMenu/YNDropDownButton.swift; sourceTree = "<group>"; };
@@ -90,11 +107,10 @@
 		1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNDropDownMenu.xcconfig; sourceTree = "<group>"; };
 		24EEA3287332BDF068B9B1C5FAE377D6 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		260A89FA768CB04B80CB7F2DE5A0D439 /* Pods-JKUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKUITests-resources.sh"; sourceTree = "<group>"; };
-		2971F687ECCF9407FAE6A5F317D50922 /* FlickrStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlickrStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlickrStyleFlowLayout/FlickrStyleFlowLayout.swift"; sourceTree = "<group>"; };
-		29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "collection-view-layouts.xcconfig"; sourceTree = "<group>"; };
+		282AE66BC281E7C47370848F7F7BEA4F /* PinterestStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestStyleFlowLayout.swift; path = "collection-view-layouts/Classes/PinterestStyleFlowLayout/PinterestStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		2B6433D8C7932A3EB31BFCBF785018D3 /* ContentDynamicLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentDynamicLayout.swift; path = "collection-view-layouts/Classes/Core/ContentDynamicLayout.swift"; sourceTree = "<group>"; };
 		2C437E704D3C4719F8B9A01BD0C37842 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
 		2C6AB7C8C44B40767F7D3CAD597BFAE1 /* YNDropDownMenu.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownMenu.tgz; path = docs/docsets/YNDropDownMenu.tgz; sourceTree = "<group>"; };
-		2D55D978B5DD5AC7A1D90AC6BD755A7E /* YNDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YNDropDownMenu.framework; path = YNDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		329E86C3837016E50639790ADE7F3A28 /* Pods-JK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JK.release.xcconfig"; sourceTree = "<group>"; };
 		33B3AB8C062D817DBFC106CF0AEE0BCA /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
 		3839404481ACBDE93F2EC5FA0B5FCAB3 /* YNDropDownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownMenu.swift; path = YNDropDownMenu/YNDropDownMenu.swift; sourceTree = "<group>"; };
@@ -102,69 +118,82 @@
 		3964F8D14F2721AFF85354123825EEDA /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
 		443F70353D261702152EE1CA919D41FB /* YNDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
 		48196DBAB6FF467E9917D2BC2E4C64AA /* YNDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownView.swift; path = YNDropDownMenu/YNDropDownView.swift; sourceTree = "<group>"; };
+		490FAC731800C9FBF19104AB0D304EB5 /* TagsStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagsStyleFlowLayout.swift; path = "collection-view-layouts/Classes/TagsStyleFlowLayout/TagsStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		49E7EF0622AA57F382E8CCE78C46968C /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
 		4EA1966F018E5B3EA4FEC5209667DE2B /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
 		5226615340D37BA4E1F746558349EA7E /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
 		541BB8EF8119DC24570B9C3F5FFE4107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		57EF9335EB18C6EFBE6922ED2C92C381 /* collection-view-layouts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-prefix.pch"; sourceTree = "<group>"; };
+		599E39E8EF04D81EADF95447442E87A0 /* FacebookStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FacebookStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FacebookStyleFlowLayout/FacebookStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		5A055C912A46FFEABB10288579C91879 /* Pods-JKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		64413F2917DD5117293D28D2C5781040 /* collection-view-layouts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-umbrella.h"; sourceTree = "<group>"; };
+		5A7DE31777F084B61B61C21CDB8249B4 /* Pods_JKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKTests.framework; path = "Pods-JKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669D94799462C056C9B5C7C4C3549344 /* collection-view-layouts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "collection-view-layouts.xcconfig"; sourceTree = "<group>"; };
 		671FCC55E23DFCB8A38E1DFABAE1787A /* YNDropDownDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDelegate.swift; path = YNDropDownMenu/YNDropDownDelegate.swift; sourceTree = "<group>"; };
 		69BEDB7E582EEEFC107A54B3AC40168B /* YNDropDownStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownStatus.swift; path = YNDropDownMenu/YNDropDownStatus.swift; sourceTree = "<group>"; };
 		6CBC24839E7294EC06C82568F5048203 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6EAA91882881C178D389E3900D775D27 /* TagsStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagsStyleFlowLayout.swift; path = "collection-view-layouts/Classes/TagsStyleFlowLayout/TagsStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		6CCCCD3D973A3665B9E7728077257761 /* Px500StyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Px500StyleFlowLayout.swift; path = "collection-view-layouts/Classes/Px500StyleFlowLayout/Px500StyleFlowLayout.swift"; sourceTree = "<group>"; };
+		6E4A1A8926A9575DA25165C6653F6856 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE0DBA26C60D63198858E6ED6A38CEC /* FlipboardStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipboardStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlipboardStyleFlowLayout/FlipboardStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		70829428B0BFB279CCCC905AF0443F68 /* Pods-JKUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKUITests.modulemap"; sourceTree = "<group>"; };
 		70C1BC1F421512F149E1356ECFB8F1C9 /* Pods-JKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B4A372C9A7C60BEA38B8C68758C4165 /* YNDropDownDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownDelegate.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Protocols/YNDropDownDelegate.html; sourceTree = "<group>"; };
-		800D74078C72DCB1C6B61A83E64E0DD5 /* collection-view-layouts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "collection-view-layouts-dummy.m"; sourceTree = "<group>"; };
+		7FBB081CAE20EB5608D8DB54DCEEADEA /* SMSegmentAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMSegmentAppearance.swift; path = SMSegmentViewController/SMSegmentView/SMSegmentAppearance.swift; sourceTree = "<group>"; };
+		80697B16DF0CDD88651E2C4793F93C2C /* collection-view-layouts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-prefix.pch"; sourceTree = "<group>"; };
 		81364F15081318025C13238BA25C571A /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
-		814A24D480226C40D743FCFBAF6E0F19 /* FlipboardStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipboardStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FlipboardStyleFlowLayout/FlipboardStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		8156518ECF6D82E68DF11D1234A72ADC /* YNDropDownDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDeprecated.swift; path = YNDropDownMenu/YNDropDownDeprecated.swift; sourceTree = "<group>"; };
+		8274C0A5FA6848AA50035D9CF93D70C3 /* collection-view-layouts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "collection-view-layouts.modulemap"; sourceTree = "<group>"; };
 		833AA26947CA51E17E392D0326494699 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E9D3B322472E68E034779CD563767 /* Pods-JKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87A8701AC176236724BDBE72F4FADA7E /* YNDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YNDropDownMenu.modulemap; sourceTree = "<group>"; };
 		87F9C705C485E9F17C622D0E593E0452 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
 		8A40E1AD563B62C9906A9DA234E8B782 /* Pods-JKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKTests-frameworks.sh"; sourceTree = "<group>"; };
 		8D70A414D8D22A3E6812DA21E9D2A584 /* Pods-JK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D9EF1BBA18950AD4CF72D83C1FB3386 /* collection_view_layouts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = collection_view_layouts.framework; path = "collection-view-layouts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E61B193E00C23EF3E24DD3822EEE08F /* YNDropDownMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YNDropDownMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E85B5C2BD24D33E2CEBDBFC58E4CD37 /* YNDropDownMenu.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownMenu.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Classes/YNDropDownMenu.html; sourceTree = "<group>"; };
 		8EBB5BB9739D092A0F0B529D8CFB7C30 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		8EE98E653DBB1948CB45CF54E3EA76C5 /* Pods-JK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JK-umbrella.h"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F8B7D3B02BA3C6CB86AD0EE6A57791D /* Pods_JKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKTests.framework; path = "Pods-JKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A228A083DA2085A0C8AC9C6ADCCF6043 /* collection-view-layouts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "collection-view-layouts.modulemap"; sourceTree = "<group>"; };
+		9C7CC685EBE16A692D63A66399795088 /* Pods_JK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JK.framework; path = "Pods-JK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40394A59DA0B24C98523D3048667496 /* Pods_JKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKUITests.framework; path = "Pods-JKUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42B4BBE6B4453EB24709CB1E6C868D3 /* Pods-JKUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A5474CEF0FC1B782C2A8D799216AEC62 /* SMSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMSegment.swift; path = SMSegmentViewController/SMSegmentView/SMSegment.swift; sourceTree = "<group>"; };
 		A6AB741A99E6C92DB16B649362A68DAC /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
 		A721851A6D99D5CC51BE57E3CA60350F /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
 		A802A011E840BF19CA36D795BB1DAD4A /* YNStatus.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNStatus.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Enums/YNStatus.html; sourceTree = "<group>"; };
 		AB093B6EA1AD15857D0B0DB51E20E33C /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
 		AD3C01C5AA7F7446E5440A0A499FBF4D /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
 		AE45258021D210C594506CF1FA1878DB /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		AF23059D5198D8BC02EB2F6BC0F06D0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF962316E7278502E8E3DD460CD6F18B /* SMSegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMSegmentView.framework; path = SMSegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BDFF08B9961A1F643B2595019FDBF9 /* collection_view_layouts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = collection_view_layouts.framework; path = "collection-view-layouts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A30B70146E020374626018CF6D80DC /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
-		B81C124DC649E96C2F1D43249802F123 /* PinterestStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinterestStyleFlowLayout.swift; path = "collection-view-layouts/Classes/PinterestStyleFlowLayout/PinterestStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		BA3BB8FDCCE2A885FA8DC89272523158 /* YNDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNDropDownMenu-dummy.m"; sourceTree = "<group>"; };
 		BC08C5C8BF66E5D2A762DAAD72EE7BF9 /* Pods-JKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BD08C4313E6C8BCE5C1859DFF6D6B292 /* YNDropDownView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownView.html; path = docs/Classes/YNDropDownView.html; sourceTree = "<group>"; };
 		BDA14A9E06A5EF768BAFBFF95BB9F45D /* Pods-JKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKTests-umbrella.h"; sourceTree = "<group>"; };
+		BDFCB6233015322582A658E8DA4E313C /* SMSegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMSegmentView-dummy.m"; sourceTree = "<group>"; };
 		C002754A278AC4DE1A6883C970659AC9 /* Pods-JK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JK-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1448EA74D4A1B0503D23C7759C33C67 /* SMSegmentViewConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMSegmentViewConstants.swift; path = SMSegmentViewController/SMSegmentView/SMSegmentViewConstants.swift; sourceTree = "<group>"; };
 		C25C6A884BA148ECA0C990D87D53DBCD /* Pods-JKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKTests.modulemap"; sourceTree = "<group>"; };
-		C570271C3E9632805027D5B6C0C48820 /* FacebookStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FacebookStyleFlowLayout.swift; path = "collection-view-layouts/Classes/FacebookStyleFlowLayout/FacebookStyleFlowLayout.swift"; sourceTree = "<group>"; };
+		C89A0308A31FA5FA28226CE570F380C5 /* YNDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YNDropDownMenu.framework; path = YNDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D3B53EC4635D63ED83EBE89FC8F570 /* Pods-JKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C96573C927A38F74E8623BDAE676EF8C /* SMSegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSegmentView-prefix.pch"; sourceTree = "<group>"; };
 		CAA2A854B591F4A1F260B5A1AE7A5CA0 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		CB3949D5B9F11B2DC54B4D1E05926C50 /* Pods-JK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JK-resources.sh"; sourceTree = "<group>"; };
 		CBBDDEFF8D153E0D7583B845C07973F3 /* Pods-JK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JK.modulemap"; sourceTree = "<group>"; };
+		CF01F1EAF6B668C4B097BB25FCB10D47 /* SMSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMSegmentView.swift; path = SMSegmentViewController/SMSegmentView/SMSegmentView.swift; sourceTree = "<group>"; };
 		D33EFE3C4B4CC3A841B0D16F544C6BD5 /* Pods-JKUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D37A595300D5032110A45AAFBC87D992 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/YNDropDownMenu.docset/Contents/Info.plist; sourceTree = "<group>"; };
 		D5478A4ED9B32ECD71016CE7BDE2AC4D /* Pods-JK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JK-dummy.m"; sourceTree = "<group>"; };
-		D7E794F7686E92B0913F48577771FD1D /* Pods_JK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JK.framework; path = "Pods-JK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EFF48512695F7330261129D5F6565B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8098D224A809E0914C7CD8210952A4E /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
 		D9CF72281FBD759231CE53B3FFFF1C3A /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		DCB62A9EA6FDF10134DC59030D8FA5A1 /* InstagramStyleFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramStyleFlowLayout.swift; path = "collection-view-layouts/Classes/InstagramStyleFlowLayout/InstagramStyleFlowLayout.swift"; sourceTree = "<group>"; };
 		DD1F46552CD2217B30E821C8ED9AD640 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
 		DDA7198C5B5D75E77E3B738E10E9633F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE96F2FB788E8676EE3CC4628287A39 /* collection-view-layouts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "collection-view-layouts-umbrella.h"; sourceTree = "<group>"; };
+		E2F13DE9BCBF70E6BD3F6B40628BA11A /* SMSegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SMSegmentView.modulemap; sourceTree = "<group>"; };
 		E42DD7390F38E7066B49466097E0D2C8 /* YNDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
 		E86F91EE357215F2ED2B34CC18893348 /* Pods-JK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JK.debug.xcconfig"; sourceTree = "<group>"; };
 		E944C01E3BF231A595E6B931A2AC5E68 /* YNDropDownView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownView.html; path = docs/docsets/YNDropDownMenu.docset/Contents/Resources/Documents/Classes/YNDropDownView.html; sourceTree = "<group>"; };
@@ -172,29 +201,27 @@
 		EA69B1D4F46DD78C1A2D2B4E9442DC88 /* YNStatus.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNStatus.html; path = docs/Enums/YNStatus.html; sourceTree = "<group>"; };
 		EC57B8100052DF8C538F8A8EED324E6A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
 		ED0C088C12A25C623B8D924CC4148265 /* Pods-JKUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKUITests-dummy.m"; sourceTree = "<group>"; };
-		EE2FAF5E0075960CDD0E6A7D6DC1A46D /* ContentDynamicLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentDynamicLayout.swift; path = "collection-view-layouts/Classes/Core/ContentDynamicLayout.swift"; sourceTree = "<group>"; };
-		EE6CD17AD290E68C31FF457362F6E9BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F889612915A0F33CA86FC33A3D0834 /* Pods-JKUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKUITests-umbrella.h"; sourceTree = "<group>"; };
 		FC4BE26F2679C9041FA176A097D2F392 /* Pods-JKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKTests-dummy.m"; sourceTree = "<group>"; };
 		FD05E8C1CEE0E21A7F712D0CE744667C /* YNDropDownMenu.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YNDropDownMenu.html; path = docs/Classes/YNDropDownMenu.html; sourceTree = "<group>"; };
-		FEDA17062F8D934A002B2D3D570EABAB /* Pods_JKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKUITests.framework; path = "Pods-JKUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		134C1B1DF5AC646E9C280697536914E2 /* Frameworks */ = {
+		097E02CE34549219A977A5DEF306D897 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CD4CD61DC47DFC0FDCB46F05C5BA76 /* Foundation.framework in Frameworks */,
+				C40B5D6D117BAB182366B5A5140A5364 /* Foundation.framework in Frameworks */,
+				EDB53AF85EDE4EAFC74C0C9812A07A3E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39B3A56AB202B7B6F85A9E6B2043E28F /* Frameworks */ = {
+		41E4FAD3D816DB230A01D8A8682D4A67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3320FF951BA6E9FC753E85EA61496B1 /* Foundation.framework in Frameworks */,
-				E1CD45A0C8E88E4789C1FD24B54EAFD8 /* UIKit.framework in Frameworks */,
+				3C684AA8E501672A177CA0A8F00DC192 /* Foundation.framework in Frameworks */,
+				CC7AD05F507FC1A211C34E1D3C90EA15 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +242,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6D1FD12DC51AB940AC4CF8E6DBF93A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57054E62907B631BA52ADB4310DC8574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFA26557B8025F73E8BBE806C740D80B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,28 +261,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C04F1CD65A21132E99B523A13455128 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A228A083DA2085A0C8AC9C6ADCCF6043 /* collection-view-layouts.modulemap */,
-				29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */,
-				800D74078C72DCB1C6B61A83E64E0DD5 /* collection-view-layouts-dummy.m */,
-				57EF9335EB18C6EFBE6922ED2C92C381 /* collection-view-layouts-prefix.pch */,
-				64413F2917DD5117293D28D2C5781040 /* collection-view-layouts-umbrella.h */,
-				EE6CD17AD290E68C31FF457362F6E9BA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/collection-view-layouts";
-			sourceTree = "<group>";
-		};
-		0DFB6FADB9FF3EE1A3B27A50467C25A3 /* TagsLayout */ = {
-			isa = PBXGroup;
-			children = (
-				6EAA91882881C178D389E3900D775D27 /* TagsStyleFlowLayout.swift */,
-			);
-			name = TagsLayout;
-			sourceTree = "<group>";
-		};
 		0E051CF334B4A9C48C1C54EDBAEF224A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,21 +310,17 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		0F04B007214B2746C8D358E46B9D6EC1 /* collection-view-layouts */ = {
+		10A2C51C7AD52840F541EF372432EC99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41BD3090A626977521265C7DD27D285A /* Core */,
-				DBE4FCAEBED78CADAAD32E850AFD96D9 /* FacebookLayout */,
-				EDD52C475CC20E39455EF4A679090394 /* FlickrLayout */,
-				A34458C6344DA13F1EA1C1A48351E4DB /* FlipboardLayout */,
-				C71457FC10653C3C9B72D1748CE35DDC /* InstagramLayout */,
-				54928E912F3D1FDED773D7076E21D823 /* PinterestLayout */,
-				F9E1C292E805715FF6A6AEA8BC0046E1 /* Px500Layout */,
-				0C04F1CD65A21132E99B523A13455128 /* Support Files */,
-				0DFB6FADB9FF3EE1A3B27A50467C25A3 /* TagsLayout */,
+				B3BDFF08B9961A1F643B2595019FDBF9 /* collection_view_layouts.framework */,
+				9C7CC685EBE16A692D63A66399795088 /* Pods_JK.framework */,
+				5A7DE31777F084B61B61C21CDB8249B4 /* Pods_JKTests.framework */,
+				A40394A59DA0B24C98523D3048667496 /* Pods_JKUITests.framework */,
+				AF962316E7278502E8E3DD460CD6F18B /* SMSegmentView.framework */,
+				C89A0308A31FA5FA28226CE570F380C5 /* YNDropDownMenu.framework */,
 			);
-			name = "collection-view-layouts";
-			path = "collection-view-layouts";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
@@ -337,6 +346,41 @@
 			path = "../JK/JK/Pods/Target Support Files/YNDropDownMenu";
 			sourceTree = "<group>";
 		};
+		24584F5522E0DF9170D3632661DEEE59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E4A1A8926A9575DA25165C6653F6856 /* Info.plist */,
+				E2F13DE9BCBF70E6BD3F6B40628BA11A /* SMSegmentView.modulemap */,
+				0DC09202D41000A4C7D4D03B6DD2A6C8 /* SMSegmentView.xcconfig */,
+				BDFCB6233015322582A658E8DA4E313C /* SMSegmentView-dummy.m */,
+				C96573C927A38F74E8623BDAE676EF8C /* SMSegmentView-prefix.pch */,
+				1301F02E1B428C0DC7017662DD8C2433 /* SMSegmentView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SMSegmentView";
+			sourceTree = "<group>";
+		};
+		31EEA55B56D76A14F5A49509F7888FFE /* SMSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				A5474CEF0FC1B782C2A8D799216AEC62 /* SMSegment.swift */,
+				7FBB081CAE20EB5608D8DB54DCEEADEA /* SMSegmentAppearance.swift */,
+				CF01F1EAF6B668C4B097BB25FCB10D47 /* SMSegmentView.swift */,
+				C1448EA74D4A1B0503D23C7759C33C67 /* SMSegmentViewConstants.swift */,
+				24584F5522E0DF9170D3632661DEEE59 /* Support Files */,
+			);
+			name = SMSegmentView;
+			path = SMSegmentView;
+			sourceTree = "<group>";
+		};
+		3328E41A41D632B9144469FDBF7B58E5 /* FacebookLayout */ = {
+			isa = PBXGroup;
+			children = (
+				599E39E8EF04D81EADF95447442E87A0 /* FacebookStyleFlowLayout.swift */,
+			);
+			name = FacebookLayout;
+			sourceTree = "<group>";
+		};
 		342482CFF1E85BDABD6CB2593D988CFF /* Pods-JKTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,12 +399,20 @@
 			path = "Target Support Files/Pods-JKTests";
 			sourceTree = "<group>";
 		};
-		41BD3090A626977521265C7DD27D285A /* Core */ = {
+		353D63769917B39D60D56F4C1F0A01E2 /* PinterestLayout */ = {
 			isa = PBXGroup;
 			children = (
-				EE2FAF5E0075960CDD0E6A7D6DC1A46D /* ContentDynamicLayout.swift */,
+				282AE66BC281E7C47370848F7F7BEA4F /* PinterestStyleFlowLayout.swift */,
 			);
-			name = Core;
+			name = PinterestLayout;
+			sourceTree = "<group>";
+		};
+		3E2E30785AABC37778C228948EA7F235 /* TagsLayout */ = {
+			isa = PBXGroup;
+			children = (
+				490FAC731800C9FBF19104AB0D304EB5 /* TagsStyleFlowLayout.swift */,
+			);
+			name = TagsLayout;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -369,6 +421,23 @@
 				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		508568BE3362F85DD2D71A38963058B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				957BD7955FD62CEED9EE79A998787E69 /* collection-view-layouts */,
+				31EEA55B56D76A14F5A49509F7888FFE /* SMSegmentView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50877FD7040927252DBF4CEFE5F2D308 /* InstagramLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DCB62A9EA6FDF10134DC59030D8FA5A1 /* InstagramStyleFlowLayout.swift */,
+			);
+			name = InstagramLayout;
 			sourceTree = "<group>";
 		};
 		51CD6DB6174C3CAAA584198A102C53C4 /* Pods-JK */ = {
@@ -389,14 +458,6 @@
 			path = "Target Support Files/Pods-JK";
 			sourceTree = "<group>";
 		};
-		54928E912F3D1FDED773D7076E21D823 /* PinterestLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B81C124DC649E96C2F1D43249802F123 /* PinterestStyleFlowLayout.swift */,
-			);
-			name = PinterestLayout;
-			sourceTree = "<group>";
-		};
 		66563226AA8ED4B48957442C594D542C /* Pods-JKUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,16 +476,12 @@
 			path = "Target Support Files/Pods-JKUITests";
 			sourceTree = "<group>";
 		};
-		6FCFEC827BD8866BC7B9875C449D72F9 /* Products */ = {
+		762B2F21CDB5A1E423567262E0BC8573 /* Px500Layout */ = {
 			isa = PBXGroup;
 			children = (
-				8D9EF1BBA18950AD4CF72D83C1FB3386 /* collection_view_layouts.framework */,
-				D7E794F7686E92B0913F48577771FD1D /* Pods_JK.framework */,
-				9F8B7D3B02BA3C6CB86AD0EE6A57791D /* Pods_JKTests.framework */,
-				FEDA17062F8D934A002B2D3D570EABAB /* Pods_JKUITests.framework */,
-				2D55D978B5DD5AC7A1D90AC6BD755A7E /* YNDropDownMenu.framework */,
+				6CCCCD3D973A3665B9E7728077257761 /* Px500StyleFlowLayout.swift */,
 			);
-			name = Products;
+			name = Px500Layout;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -433,18 +490,10 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				89895631CC1F5C87949AC57A6F69D80D /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				816110D3E90CB1336F192AF26C6230F0 /* Pods */,
-				6FCFEC827BD8866BC7B9875C449D72F9 /* Products */,
+				508568BE3362F85DD2D71A38963058B4 /* Pods */,
+				10A2C51C7AD52840F541EF372432EC99 /* Products */,
 				FBE98F4F33EB3A44D4B38A8882E1ACBD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		816110D3E90CB1336F192AF26C6230F0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0F04B007214B2746C8D358E46B9D6EC1 /* collection-view-layouts */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		89895631CC1F5C87949AC57A6F69D80D /* Development Pods */ = {
@@ -455,20 +504,51 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A34458C6344DA13F1EA1C1A48351E4DB /* FlipboardLayout */ = {
+		957BD7955FD62CEED9EE79A998787E69 /* collection-view-layouts */ = {
 			isa = PBXGroup;
 			children = (
-				814A24D480226C40D743FCFBAF6E0F19 /* FlipboardStyleFlowLayout.swift */,
+				F3DA0AA2798CCC02C4D98EB28A08AF00 /* Core */,
+				3328E41A41D632B9144469FDBF7B58E5 /* FacebookLayout */,
+				AD997509B726C2868091E847EA878EDE /* FlickrLayout */,
+				9E6839964C40D1C41ECC8F8414AD9B25 /* FlipboardLayout */,
+				50877FD7040927252DBF4CEFE5F2D308 /* InstagramLayout */,
+				353D63769917B39D60D56F4C1F0A01E2 /* PinterestLayout */,
+				762B2F21CDB5A1E423567262E0BC8573 /* Px500Layout */,
+				C5514712CAF8515322B0A89CA95A4426 /* Support Files */,
+				3E2E30785AABC37778C228948EA7F235 /* TagsLayout */,
+			);
+			name = "collection-view-layouts";
+			path = "collection-view-layouts";
+			sourceTree = "<group>";
+		};
+		9E6839964C40D1C41ECC8F8414AD9B25 /* FlipboardLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6FE0DBA26C60D63198858E6ED6A38CEC /* FlipboardStyleFlowLayout.swift */,
 			);
 			name = FlipboardLayout;
 			sourceTree = "<group>";
 		};
-		C71457FC10653C3C9B72D1748CE35DDC /* InstagramLayout */ = {
+		AD997509B726C2868091E847EA878EDE /* FlickrLayout */ = {
 			isa = PBXGroup;
 			children = (
-				0ACA8E7580FFD4FCD6CAAE574FE0C863 /* InstagramStyleFlowLayout.swift */,
+				08132BFEE06B8A35B300A568461FF574 /* FlickrStyleFlowLayout.swift */,
 			);
-			name = InstagramLayout;
+			name = FlickrLayout;
+			sourceTree = "<group>";
+		};
+		C5514712CAF8515322B0A89CA95A4426 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8274C0A5FA6848AA50035D9CF93D70C3 /* collection-view-layouts.modulemap */,
+				669D94799462C056C9B5C7C4C3549344 /* collection-view-layouts.xcconfig */,
+				0F5B9A947A13DEC68FFDE4565C668784 /* collection-view-layouts-dummy.m */,
+				80697B16DF0CDD88651E2C4793F93C2C /* collection-view-layouts-prefix.pch */,
+				DEE96F2FB788E8676EE3CC4628287A39 /* collection-view-layouts-umbrella.h */,
+				AF23059D5198D8BC02EB2F6BC0F06D0F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/collection-view-layouts";
 			sourceTree = "<group>";
 		};
 		DA9CEB7463E0931FB09E7995E009D883 /* YNDropDownMenu */ = {
@@ -487,28 +567,12 @@
 			path = ../../../YNDropDownMenu;
 			sourceTree = "<group>";
 		};
-		DBE4FCAEBED78CADAAD32E850AFD96D9 /* FacebookLayout */ = {
+		F3DA0AA2798CCC02C4D98EB28A08AF00 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C570271C3E9632805027D5B6C0C48820 /* FacebookStyleFlowLayout.swift */,
+				2B6433D8C7932A3EB31BFCBF785018D3 /* ContentDynamicLayout.swift */,
 			);
-			name = FacebookLayout;
-			sourceTree = "<group>";
-		};
-		EDD52C475CC20E39455EF4A679090394 /* FlickrLayout */ = {
-			isa = PBXGroup;
-			children = (
-				2971F687ECCF9407FAE6A5F317D50922 /* FlickrStyleFlowLayout.swift */,
-			);
-			name = FlickrLayout;
-			sourceTree = "<group>";
-		};
-		F9E1C292E805715FF6A6AEA8BC0046E1 /* Px500Layout */ = {
-			isa = PBXGroup;
-			children = (
-				004E0743F9F6F0B2BE4CFCF3E4C6F4A9 /* Px500StyleFlowLayout.swift */,
-			);
-			name = Px500Layout;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		FBE98F4F33EB3A44D4B38A8882E1ACBD /* Targets Support Files */ = {
@@ -532,14 +596,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CC339A707F0BF0BCD82750EBC879E7F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DF35A3693AA4FA21A3DFC57A904032D /* YNDropDownMenu-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A9B18156399C93B4F1CC4FAA7031006 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,11 +604,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E6C9BF02BFA3552B1E29D3CF361CCD9 /* Headers */ = {
+		6B333935EC16284F88C3940433EFF047 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90181395931E15BF021B07A78A24A4B2 /* Pods-JK-umbrella.h in Headers */,
+				BF05B538450007D46876564EBDBB50E3 /* Pods-JK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65702958DB2F6F532EF488DAC9B5501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCC10C3FA7B75210AE3E7A75E04EE28 /* SMSegmentView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,9 +628,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3B67465CF853B9297C83BD465F1752A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FB13F25E4A4A3414D92DAE27CD7A1D /* YNDropDownMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		09A6B7DD253A36092AB63D3D957DF7B0 /* SMSegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DDB60998B76604FB2A895792D8BBE4 /* Build configuration list for PBXNativeTarget "SMSegmentView" */;
+			buildPhases = (
+				A65702958DB2F6F532EF488DAC9B5501 /* Headers */,
+				38AC99ABE1267044A9C44D1C6298692F /* Sources */,
+				097E02CE34549219A977A5DEF306D897 /* Frameworks */,
+				0C20F7A794D10B684730B96C44E376B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSegmentView;
+			productName = SMSegmentView;
+			productReference = AF962316E7278502E8E3DD460CD6F18B /* SMSegmentView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		34612CAA7BEBC2FFB10D527D2037C390 /* Pods-JKTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B2A38B3B0ABAB1EE51404B18DBCD42 /* Build configuration list for PBXNativeTarget "Pods-JKTests" */;
@@ -583,17 +673,17 @@
 			);
 			name = "Pods-JKTests";
 			productName = "Pods-JKTests";
-			productReference = 9F8B7D3B02BA3C6CB86AD0EE6A57791D /* Pods_JKTests.framework */;
+			productReference = 5A7DE31777F084B61B61C21CDB8249B4 /* Pods_JKTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		53BC066FEB2615DE0B66A6C25AEBDFBC /* YNDropDownMenu */ = {
+		7B66456458DECDA3B24B88B86B745B89 /* YNDropDownMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A81D15476CDB0E122540FD79071E3F83 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */;
+			buildConfigurationList = 31AFF774B9081385D9DFE3A28031F723 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */;
 			buildPhases = (
-				4CC339A707F0BF0BCD82750EBC879E7F /* Headers */,
-				F717E9B233D8AB9E19D95C276F269D7B /* Sources */,
-				39B3A56AB202B7B6F85A9E6B2043E28F /* Frameworks */,
-				3DFED8C4D6C4A7FF56DBD031A4467FB1 /* Resources */,
+				E3B67465CF853B9297C83BD465F1752A /* Headers */,
+				83D2F6B8103AB267BB8AF55147826D35 /* Sources */,
+				41E4FAD3D816DB230A01D8A8682D4A67 /* Frameworks */,
+				0E9C75F5CDDDD9F1BD7B1CD3CE27C9B1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -601,7 +691,7 @@
 			);
 			name = YNDropDownMenu;
 			productName = YNDropDownMenu;
-			productReference = 2D55D978B5DD5AC7A1D90AC6BD755A7E /* YNDropDownMenu.framework */;
+			productReference = C89A0308A31FA5FA28226CE570F380C5 /* YNDropDownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FF03AFFEFD3D1BC64B995FC3FF1AA0F /* collection-view-layouts */ = {
@@ -619,27 +709,28 @@
 			);
 			name = "collection-view-layouts";
 			productName = "collection-view-layouts";
-			productReference = 8D9EF1BBA18950AD4CF72D83C1FB3386 /* collection_view_layouts.framework */;
+			productReference = B3BDFF08B9961A1F643B2595019FDBF9 /* collection_view_layouts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B6FC87A2F2786FA4BADC74F3150FB6F6 /* Pods-JK */ = {
+		B116C37C8600D66520E678C91463979E /* Pods-JK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95EFF2AC2559F0D05C611071277CF9C7 /* Build configuration list for PBXNativeTarget "Pods-JK" */;
+			buildConfigurationList = 210A86C27B793C4B8B730FFE4A59CE60 /* Build configuration list for PBXNativeTarget "Pods-JK" */;
 			buildPhases = (
-				7E6C9BF02BFA3552B1E29D3CF361CCD9 /* Headers */,
-				F2E462604A8CF2225526EC01FC5D54EE /* Sources */,
-				134C1B1DF5AC646E9C280697536914E2 /* Frameworks */,
-				A5C19808CDD0B543FA8BA930F2E3EFE3 /* Resources */,
+				6B333935EC16284F88C3940433EFF047 /* Headers */,
+				64C945E0F3A4A698299C0AF5A931D15C /* Sources */,
+				A6D1FD12DC51AB940AC4CF8E6DBF93A0 /* Frameworks */,
+				BC9C5E26EC80BF1E6F7CBAEC5A0B4AE6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BB3473FC2A2A3487E3A35DD6861A302 /* PBXTargetDependency */,
-				B65146D2F328EAEC56DF073ADB671DBC /* PBXTargetDependency */,
+				58FDD49AF52ABCCB0661F01521E62AD3 /* PBXTargetDependency */,
+				31147A0D0A6F7353408E0749677CE3D1 /* PBXTargetDependency */,
+				4F6F48770ED93E7E0B49D88C002B826B /* PBXTargetDependency */,
 			);
 			name = "Pods-JK";
 			productName = "Pods-JK";
-			productReference = D7E794F7686E92B0913F48577771FD1D /* Pods_JK.framework */;
+			productReference = 9C7CC685EBE16A692D63A66399795088 /* Pods_JK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC641A58AAA920BAC51F55236941C2EC /* Pods-JKUITests */ = {
@@ -658,7 +749,7 @@
 			);
 			name = "Pods-JKUITests";
 			productName = "Pods-JKUITests";
-			productReference = FEDA17062F8D934A002B2D3D570EABAB /* Pods_JKUITests.framework */;
+			productReference = A40394A59DA0B24C98523D3048667496 /* Pods_JKUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -678,28 +769,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6FCFEC827BD8866BC7B9875C449D72F9 /* Products */;
+			productRefGroup = 10A2C51C7AD52840F541EF372432EC99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8FF03AFFEFD3D1BC64B995FC3FF1AA0F /* collection-view-layouts */,
-				B6FC87A2F2786FA4BADC74F3150FB6F6 /* Pods-JK */,
+				B116C37C8600D66520E678C91463979E /* Pods-JK */,
 				34612CAA7BEBC2FFB10D527D2037C390 /* Pods-JKTests */,
 				FC641A58AAA920BAC51F55236941C2EC /* Pods-JKUITests */,
-				53BC066FEB2615DE0B66A6C25AEBDFBC /* YNDropDownMenu */,
+				09A6B7DD253A36092AB63D3D957DF7B0 /* SMSegmentView */,
+				7B66456458DECDA3B24B88B86B745B89 /* YNDropDownMenu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30C4D79FAB329666B2CB421A3B8A000C /* Resources */ = {
+		0C20F7A794D10B684730B96C44E376B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DFED8C4D6C4A7FF56DBD031A4467FB1 /* Resources */ = {
+		0E9C75F5CDDDD9F1BD7B1CD3CE27C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C4D79FAB329666B2CB421A3B8A000C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -720,7 +819,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C19808CDD0B543FA8BA930F2E3EFE3 /* Resources */ = {
+		BC9C5E26EC80BF1E6F7CBAEC5A0B4AE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -754,6 +853,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38AC99ABE1267044A9C44D1C6298692F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B36FABD3C64836E54D041F2265755E /* SMSegment.swift in Sources */,
+				5A13EB9CCC5B0566A6FB73C08D8AE805 /* SMSegmentAppearance.swift in Sources */,
+				3EA463BC49D9B454C0208B5AAAC97DD9 /* SMSegmentView-dummy.m in Sources */,
+				B8E1D980127F5643CB92476F4DCAC010 /* SMSegmentView.swift in Sources */,
+				3B8516D0DF9BE43AC44546AFD393F424 /* SMSegmentViewConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C945E0F3A4A698299C0AF5A931D15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03AFF1678A9A5B19D97DEC25D99DBE5 /* Pods-JK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		748BE83DD081277080C960DBCD9141C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -762,54 +881,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2E462604A8CF2225526EC01FC5D54EE /* Sources */ = {
+		83D2F6B8103AB267BB8AF55147826D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB74FF14D0534DE8A5A53496FFB930C6 /* Pods-JK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F717E9B233D8AB9E19D95C276F269D7B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F9B6128B356FAA652BAF03EB04B244D /* YNDropDownButton.swift in Sources */,
-				110DC00463547933BC6C58AFA7725587 /* YNDropDownDelegate.swift in Sources */,
-				B9399595C90EDACC62DAD5E979E0DBA6 /* YNDropDownDeprecated.swift in Sources */,
-				A2ED0F77B51EF56697539D7179856994 /* YNDropDownMenu-dummy.m in Sources */,
-				7F6613ED0C962DCE5B4120579C6DA176 /* YNDropDownMenu.swift in Sources */,
-				35ED6AEDFA7C0BDF62B4EE501DA311D6 /* YNDropDownStatus.swift in Sources */,
-				67AA2AE22D9C7C57AC0AC9BA719D3C67 /* YNDropDownView.swift in Sources */,
+				F8F05B652BB6A8DAAB9D4DE4C86B6A4D /* YNDropDownButton.swift in Sources */,
+				B41C009BDEEDDA175CB1B76DCE81A1BF /* YNDropDownDelegate.swift in Sources */,
+				124E962B8334D29FB1A0023D99801B07 /* YNDropDownDeprecated.swift in Sources */,
+				766C2A0AC580EE788B1775D088855E5E /* YNDropDownMenu-dummy.m in Sources */,
+				BEB5172E63A5AF388D2CC3854C579ED2 /* YNDropDownMenu.swift in Sources */,
+				92954A693C0D43B9AA0BABC53B39A45F /* YNDropDownStatus.swift in Sources */,
+				11AF3D21E83FC119727F15A3206AA1D2 /* YNDropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		31147A0D0A6F7353408E0749677CE3D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YNDropDownMenu;
+			target = 7B66456458DECDA3B24B88B86B745B89 /* YNDropDownMenu */;
+			targetProxy = F32214E8115C83AD615FE20184E5CC60 /* PBXContainerItemProxy */;
+		};
+		4F6F48770ED93E7E0B49D88C002B826B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "collection-view-layouts";
+			target = 8FF03AFFEFD3D1BC64B995FC3FF1AA0F /* collection-view-layouts */;
+			targetProxy = C2F6E04898A0042F98895517CCDA4A6D /* PBXContainerItemProxy */;
+		};
+		58FDD49AF52ABCCB0661F01521E62AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMSegmentView;
+			target = 09A6B7DD253A36092AB63D3D957DF7B0 /* SMSegmentView */;
+			targetProxy = 05641CD08ED114A6751256BA673E43F6 /* PBXContainerItemProxy */;
+		};
 		7AD268FCB44D3A5F3632170D11A60F2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JK";
-			target = B6FC87A2F2786FA4BADC74F3150FB6F6 /* Pods-JK */;
+			target = B116C37C8600D66520E678C91463979E /* Pods-JK */;
 			targetProxy = B22E0F8F6967DC1AA4E76D76D0F4F9CF /* PBXContainerItemProxy */;
 		};
 		848D2B86AAE677E65D462BEA51E18FA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JK";
-			target = B6FC87A2F2786FA4BADC74F3150FB6F6 /* Pods-JK */;
+			target = B116C37C8600D66520E678C91463979E /* Pods-JK */;
 			targetProxy = CF220CCF69A3D5DF3B97C52EC7650492 /* PBXContainerItemProxy */;
-		};
-		9BB3473FC2A2A3487E3A35DD6861A302 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YNDropDownMenu;
-			target = 53BC066FEB2615DE0B66A6C25AEBDFBC /* YNDropDownMenu */;
-			targetProxy = BA13345059F06A34F365CBBD7204D180 /* PBXContainerItemProxy */;
-		};
-		B65146D2F328EAEC56DF073ADB671DBC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "collection-view-layouts";
-			target = 8FF03AFFEFD3D1BC64B995FC3FF1AA0F /* collection-view-layouts */;
-			targetProxy = 34BF5E2BF6CCD40DB1A3E898DD0DFAEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -873,7 +990,119 @@
 			};
 			name = Release;
 		};
-		0CFE4799538B00FF8A27ECF916D1D85C /* Debug */ = {
+		17900E5AD2C81F5CE5471CA7464B7E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669D94799462C056C9B5C7C4C3549344 /* collection-view-layouts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
+				PRODUCT_MODULE_NAME = collection_view_layouts;
+				PRODUCT_NAME = collection_view_layouts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21F0DFDAB4B5E977DF9C4CDEB53825DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669D94799462C056C9B5C7C4C3549344 /* collection-view-layouts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
+				PRODUCT_MODULE_NAME = collection_view_layouts;
+				PRODUCT_NAME = collection_view_layouts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		269E12D7669762FADCDAAA95E6991B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = YNDropDownMenu;
+				PRODUCT_NAME = YNDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33859BD3E3779413D10B5A9291E676B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E86F91EE357215F2ED2B34CC18893348 /* Pods-JK.debug.xcconfig */;
 			buildSettings = {
@@ -913,9 +1142,9 @@
 			};
 			name = Debug;
 		};
-		17900E5AD2C81F5CE5471CA7464B7E14 /* Debug */ = {
+		3AA61CCFA80CE91D1815654C89FDCDB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
+			baseConfigurationReference = 0DC09202D41000A4C7D4D03B6DD2A6C8 /* SMSegmentView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -926,18 +1155,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SMSegmentView/SMSegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMSegmentView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
-				PRODUCT_MODULE_NAME = collection_view_layouts;
-				PRODUCT_NAME = collection_view_layouts;
+				MODULEMAP_FILE = "Target Support Files/SMSegmentView/SMSegmentView.modulemap";
+				PRODUCT_MODULE_NAME = SMSegmentView;
+				PRODUCT_NAME = SMSegmentView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -949,9 +1178,9 @@
 			};
 			name = Debug;
 		};
-		21F0DFDAB4B5E977DF9C4CDEB53825DD /* Release */ = {
+		46FCA348AF8D8C2700218C438AABC372 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29D84062AA9E822F2FA14779610C99B3 /* collection-view-layouts.xcconfig */;
+			baseConfigurationReference = 0DC09202D41000A4C7D4D03B6DD2A6C8 /* SMSegmentView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -962,65 +1191,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/collection-view-layouts/collection-view-layouts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/collection-view-layouts/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SMSegmentView/SMSegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMSegmentView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/collection-view-layouts/collection-view-layouts.modulemap";
-				PRODUCT_MODULE_NAME = collection_view_layouts;
-				PRODUCT_NAME = collection_view_layouts;
+				MODULEMAP_FILE = "Target Support Files/SMSegmentView/SMSegmentView.modulemap";
+				PRODUCT_MODULE_NAME = SMSegmentView;
+				PRODUCT_NAME = SMSegmentView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		502BA7ACACF9D4BCB95E3D40A187C0F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 329E86C3837016E50639790ADE7F3A28 /* Pods-JK.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JK/Pods-JK.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1105,44 +1293,6 @@
 			};
 			name = Release;
 		};
-		7A12AAE4A91AB619DE71144D7D3E9A8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
-				PRODUCT_MODULE_NAME = YNDropDownMenu;
-				PRODUCT_NAME = YNDropDownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		98F661BC7E2039A9850B383371FF3211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70C1BC1F421512F149E1356ECFB8F1C9 /* Pods-JKTests.release.xcconfig */;
@@ -1220,6 +1370,83 @@
 			};
 			name = Debug;
 		};
+		B56C60A4FC445DD7C2B3F23512DE222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329E86C3837016E50639790ADE7F3A28 /* Pods-JK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JK/Pods-JK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBE7D449CDC6287C6A8F9863B9E18155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = YNDropDownMenu;
+				PRODUCT_NAME = YNDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1284,42 +1511,6 @@
 			};
 			name = Debug;
 		};
-		EB8C52947B24ECE50EBC77EF0EC1B11F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E2F1E18462A6F0BC6501B736B9D3503 /* YNDropDownMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
-				PRODUCT_MODULE_NAME = YNDropDownMenu;
-				PRODUCT_NAME = YNDropDownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1328,6 +1519,15 @@
 			buildConfigurations = (
 				9BFACEA923BC6AD7BF78A474EDD49BA5 /* Debug */,
 				6AE3DE333FA3BF80F6F0D219E3187203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210A86C27B793C4B8B730FFE4A59CE60 /* Build configuration list for PBXNativeTarget "Pods-JK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33859BD3E3779413D10B5A9291E676B6 /* Debug */,
+				B56C60A4FC445DD7C2B3F23512DE222A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1350,11 +1550,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95EFF2AC2559F0D05C611071277CF9C7 /* Build configuration list for PBXNativeTarget "Pods-JK" */ = {
+		31AFF774B9081385D9DFE3A28031F723 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CFE4799538B00FF8A27ECF916D1D85C /* Debug */,
-				502BA7ACACF9D4BCB95E3D40A187C0F8 /* Release */,
+				BBE7D449CDC6287C6A8F9863B9E18155 /* Debug */,
+				269E12D7669762FADCDAAA95E6991B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DDB60998B76604FB2A895792D8BBE4 /* Build configuration list for PBXNativeTarget "SMSegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA61CCFA80CE91D1815654C89FDCDB2 /* Debug */,
+				46FCA348AF8D8C2700218C438AABC372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1364,15 +1573,6 @@
 			buildConfigurations = (
 				54A0ADDC7880342D4A59D0C6A9BCE7FC /* Debug */,
 				98F661BC7E2039A9850B383371FF3211 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A81D15476CDB0E122540FD79071E3F83 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB8C52947B24ECE50EBC77EF0EC1B11F /* Debug */,
-				7A12AAE4A91AB619DE71144D7D3E9A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
