@@ -75,7 +75,5 @@ class FilterTypeView: YNDropDownView {
         }
         
     }
-    
-    
 }
 

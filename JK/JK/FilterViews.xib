@@ -35,7 +35,7 @@
                         <segment title="风格2"/>
                         <segment title="风格3"/>
                     </segments>
-                    <color key="tintColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-bB-IK9">
                     <rect key="frame" x="20" y="113.5" width="335" height="0.5"/>
@@ -61,7 +61,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Cancel">
-                        <color key="titleColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
                         <action selector="cancelButtonClicked:" destination="WZ5-hm-Wdy" eventType="touchUpInside" id="9YH-dg-VxL"/>
@@ -74,7 +74,7 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                     <state key="normal" title="Ok">
-                        <color key="titleColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
                         <action selector="confirmButtonClicked:" destination="WZ5-hm-Wdy" eventType="touchUpInside" id="Yak-Ej-XhI"/>
@@ -97,7 +97,7 @@
                         <segment title="2"/>
                         <segment title="3"/>
                     </segments>
-                    <color key="tintColor" red="1" green="0.2908790369" blue="0.79820360089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KN8-BL-gqD">
                     <rect key="frame" x="187.5" y="245" width="0.5" height="26"/>
@@ -108,7 +108,7 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="2jS-BB-YSU" secondAttribute="trailing" constant="20" id="0kb-pn-f8T"/>
                 <constraint firstItem="1Bc-bB-IK9" firstAttribute="top" secondItem="yl7-Fx-ZBX" secondAttribute="bottom" constant="24.5" id="40v-2P-BCI"/>
@@ -143,7 +143,7 @@
                 <outlet property="builtDateSegmentControl" destination="yl7-Fx-ZBX" id="AmK-X1-JbC"/>
                 <outlet property="householdsSegmentControl" destination="2jS-BB-YSU" id="i8n-we-2pQ"/>
             </connections>
-            <point key="canvasLocation" x="-74" y="-135"/>
+            <point key="canvasLocation" x="-74.400000000000006" y="-135.38230884557723"/>
         </view>
     </objects>
 </document>
