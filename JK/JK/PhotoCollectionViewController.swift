@@ -56,7 +56,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
             filterView.setBackgroundColor(color: UIColor.black)
             filterView.backgroundBlurEnabled = true
             filterView.blurEffectStyle = .extraLight
-            filterView.blurEffectViewAlpha = 0
+            filterView.blurEffectViewAlpha = 0.1
             filterView.backgroundColor = UIColor.clear
             dropDownView = filterView
             self.view.addSubview(dropDownView)
