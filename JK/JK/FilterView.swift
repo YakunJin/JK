@@ -71,7 +71,8 @@ class FilterTypeView: YNDropDownView {
         appearance.titleOffSelectionFont = UIFont.systemFont(ofSize: 12.0)
         appearance.contentVerticalMargin = 10.0
         
-        segmentView = SMSegmentView(frame: CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.width - 100), dividerColour: UIColor(white: 0.95, alpha: 0.3), dividerWidth: 1.0, segmentAppearance: appearance)
+        segmentView = SMSegmentView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width/3, height: self.frame.size.height-50), dividerColour: UIColor(white: 0.95, alpha: 0.3), dividerWidth: 1.0, segmentAppearance: appearance)
+        segmentView.addSegmentWithTitle("全部", onSelectionImage: UIImage(named: "target_light"), offSelectionImage: UIImage(named: "target"))
         segmentView.addSegmentWithTitle("风格1", onSelectionImage: UIImage(named: "target_light"), offSelectionImage: UIImage(named: "target"))
         segmentView.addSegmentWithTitle("风格2", onSelectionImage: UIImage(named: "handbag_light"), offSelectionImage: UIImage(named: "handbag"))
         segmentView.addSegmentWithTitle("风格3", onSelectionImage: UIImage(named: "globe_light"), offSelectionImage: UIImage(named: "globe"))
@@ -82,9 +83,10 @@ class FilterTypeView: YNDropDownView {
     
     func getFilterName(index: Int) -> String {
         switch index{
-        case 0: return FilterType.Japan.rawValue
-        case 1: return FilterType.Europe.rawValue
-        case 2: return FilterType.Chinese.rawValue
+        case 0: return FilterType.None.rawValue
+        case 1: return FilterType.Japan.rawValue
+        case 2: return FilterType.Europe.rawValue
+        case 3: return FilterType.Chinese.rawValue
         default:
             return FilterType.None.rawValue
         }

@@ -105,17 +105,20 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     
     func applyFilter(filters: Array<String>!) {
        resetImageList(path: plistPath)
-       imageList = imageList.filter {
-            let cellDict = $0 as! NSDictionary
-            let imageTags = cellDict["tags"] as! NSArray
-            
-            let canDisplayedImage = imageTags.filter {
-                let tag = $0 as! String
-                return filters.contains(tag)
-            }
-            
-            return !canDisplayedImage.isEmpty
-        } as NSArray
+        if(!filters.contains("None"))
+        {
+            imageList = imageList.filter {
+                let cellDict = $0 as! NSDictionary
+                let imageTags = cellDict["tags"] as! NSArray
+                
+                let canDisplayedImage = imageTags.filter {
+                    let tag = $0 as! String
+                    return filters.contains(tag)
+                }
+                
+                return !canDisplayedImage.isEmpty
+                } as NSArray
+        }
         collectionView?.reloadData()
     }
     
