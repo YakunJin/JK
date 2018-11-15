@@ -10,14 +10,14 @@ import Foundation
 import UIKit
 
 class PhotoCollectionView: UIImageView {
-    init(frame: CGRect, with labelText: String, photoImage: UIImage) {
+    init(frame: CGRect, with labelText: String,photoImage: UIImage, frameImage: UIImage) {
         super.init(frame: frame)
-        let photoView = UIImageView(frame: CGRect(x: 5, y: 5, width: frame.size.width-10, height: frame.size.height-10))
+        let photoView = UIImageView(frame: CGRect(x: 6, y: 6, width: frame.size.width-12, height: frame.size.height-12))
         photoView.image = photoImage
         self.addSubview(photoView);
         self.bringSubviewToFront(photoView)
         self.backgroundColor = UIColor.lightGray
-//        self.image = frameImage
+        self.image = frameImage
         var label = UILabel(frame: CGRect(x: 10, y: frame.size.height-35, width: frame.size.width, height: 30))
         label.textColor = UIColor.white
         label.text = labelText

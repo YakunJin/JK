@@ -78,7 +78,8 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
         cell.backgroundView = PhotoCollectionView(frame: cell.frame,
                                                   with: cellDict["desc"] as! String,
-                                                  photoImage: originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: cell.frame.size.width-5, height: cell.frame.size.height-5)))
+                                                  photoImage: originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: cell.frame.size.width-5, height: cell.frame.size.height-5)),
+                                                  frameImage: UIImage(named: "frame")!)
 //        let uiImageCellView = cell.backgroundView as! PhotoCollectionView;
 //        uiImageCellView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: uiImageCellView.frame.size.width, height: uiImageCellView.frame.size.height))
 //        let uiImageCellBackGroundView = cell.backgroundView as! UIView;
