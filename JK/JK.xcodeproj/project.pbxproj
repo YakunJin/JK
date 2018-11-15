@@ -23,6 +23,7 @@
 		A93B003F213C0C4B00600ADE /* ManicureList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93B003E213C0C4B00600ADE /* ManicureList.plist */; };
 		A970EFD6217B680D0077E8B9 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970EFD5217B680D0077E8B9 /* FilterView.swift */; };
 		A970EFDA217C83C40077E8B9 /* FilterViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = A970EFD9217C83C40077E8B9 /* FilterViews.xib */; };
+		A9A6DC97219B017700699E3C /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A6DC96219B017700699E3C /* PhotoCollectionView.swift */; };
 		A9C4374D2186E14000E18F7E /* ManicureCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4374C2186E14000E18F7E /* ManicureCollectionController.swift */; };
 		A9C4374F2186E48100E18F7E /* EyelashesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C4374E2186E48100E18F7E /* EyelashesList.plist */; };
 		A9C437512186E60700E18F7E /* w1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9C437502186E60700E18F7E /* w1.jpeg */; };
@@ -91,6 +92,7 @@
 		A93BFFFF213BFC8900600ADE /* JK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A970EFD5217B680D0077E8B9 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		A970EFD9217C83C40077E8B9 /* FilterViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViews.xib; sourceTree = "<group>"; };
+		A9A6DC96219B017700699E3C /* PhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
 		A9C4374C2186E14000E18F7E /* ManicureCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManicureCollectionController.swift; sourceTree = "<group>"; };
 		A9C4374E2186E48100E18F7E /* EyelashesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EyelashesList.plist; sourceTree = "<group>"; };
 		A9C437502186E60700E18F7E /* w1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w1.jpeg; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				A970EFD9217C83C40077E8B9 /* FilterViews.xib */,
 				A9D4FED9215140D60011D6C4 /* PhotoDetailViewController.swift */,
 				A93B0008213BFC8900600ADE /* Main.storyboard */,
+				A9A6DC96219B017700699E3C /* PhotoCollectionView.swift */,
 				A93B000E213BFC8B00600ADE /* Assets.xcassets */,
 				A93B0010213BFC8B00600ADE /* LaunchScreen.storyboard */,
 				A93B0013213BFC8B00600ADE /* Info.plist */,
@@ -518,6 +521,7 @@
 				A9D4FED8214FDD0F0011D6C4 /* PhotoCollectionViewController.swift in Sources */,
 				A93B0015213BFC8B00600ADE /* main.m in Sources */,
 				A9C4374D2186E14000E18F7E /* ManicureCollectionController.swift in Sources */,
+				A9A6DC97219B017700699E3C /* PhotoCollectionView.swift in Sources */,
 				A9D4FEDA215140D60011D6C4 /* PhotoDetailViewController.swift in Sources */,
 				A970EFD6217B680D0077E8B9 /* FilterView.swift in Sources */,
 				A93B0004213BFC8900600ADE /* AppDelegate.m in Sources */,

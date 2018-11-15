@@ -76,8 +76,26 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         let row = (indexPath as NSIndexPath).row;
         let cellDict = imageList[row] as! NSDictionary;
         let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
-        let uiImageCellView = cell.backgroundView as! UIImageView;
-        uiImageCellView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: (screenWidth-4*cellPaddingHorizonal)/2, height: (screenWidth-4*cellPaddingHorizonal)/2));
+        cell.backgroundView = PhotoCollectionView(frame: cell.frame,
+                                                  with: cellDict["desc"] as! String,
+                                                  photoImage: originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: cell.frame.size.width-5, height: cell.frame.size.height-5)))
+//        let uiImageCellView = cell.backgroundView as! PhotoCollectionView;
+//        uiImageCellView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: uiImageCellView.frame.size.width, height: uiImageCellView.frame.size.height))
+//        let uiImageCellBackGroundView = cell.backgroundView as! UIView;
+//        let imageView = PhotoCollectionView(frame: CGRect(x: uiImageCellBackGroundView.frame.origin.x, y: uiImageCellBackGroundView.frame.origin.y, width: uiImageCellBackGroundView.frame.size.width-5, height: uiImageCellBackGroundView.frame.size.height-5), with: cellDict["desc"] as! String)
+//        imageView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: imageView.frame.size.width, height: imageView.frame.size.height))
+        
+//        uiImageCellBackGroundView.addSubview(imageView)
+//        var label = UILabel(frame: CGRect(x: cell.frame.origin.x, y: cell.frame.size.height-20, width: cell.frame.size.width, height: 10))
+//        label.textColor = UIColor.white
+//        label.text = cellDict["desc"] as! String
+//        label.backgroundColor = UIColor.red
+//        uiImageCellView.addSubview(label)
+//        label.leadingAnchor.constraint(equalTo: uiImageCellView.leadingAnchor).isActive = true
+//        label.bottomAnchor.constraint(equalTo: uiImageCellView.bottomAnchor).isActive = true
+//        label.trailingAnchor.constraint(equalTo: uiImageCellView.trailingAnchor).isActive = true
+//        cell.bringSubviewToFront(label)
+        
         return cell;
     }
     
