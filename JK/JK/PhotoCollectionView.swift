@@ -12,13 +12,19 @@ import UIKit
 class PhotoCollectionView: UIImageView {
     init(frame: CGRect, with labelText: String,photoImage: UIImage, frameImage: UIImage) {
         super.init(frame: frame)
-        let photoView = UIImageView(frame: CGRect(x: 6, y: 6, width: frame.size.width-12, height: frame.size.height-12))
+        let photoView = UIImageView(frame: CGRect(x: 35, y: 65, width: frame.size.width-60, height: frame.size.height-120))
         photoView.image = photoImage
         self.addSubview(photoView);
         self.bringSubviewToFront(photoView)
-        self.backgroundColor = UIColor.lightGray
-        self.image = frameImage
-        var label = UILabel(frame: CGRect(x: 10, y: frame.size.height-35, width: frame.size.width, height: 30))
+        self.backgroundColor = UIColor.white
+        
+//         self.image = frameImage
+        let frameView = UIImageView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height))
+        frameView.image = frameImage
+        self.addSubview(frameView)
+        self.bringSubviewToFront(frameView)
+        
+        var label = UILabel(frame: CGRect(x: 50, y: frame.size.height-90, width: frame.size.width-60, height: 30))
         label.textColor = UIColor.white
         label.text = labelText
         label.backgroundColor = UIColor.clear
