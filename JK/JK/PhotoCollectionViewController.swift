@@ -47,6 +47,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         let FilterViews = Bundle.main.loadNibNamed("FilterViews", owner: nil, options: nil) as? [UIView]
         
         if let _filterViews = FilterViews {
+            initFilterOptions(filterTypeView: _filterViews[0] as! FilterTypeView)
             // Inherit YNDropDownView if you want to hideMenu in your dropDownViews
             var filterView = YNDropDownMenu(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.08), dropDownViews: _filterViews, dropDownViewTitles: [""])
             filterView.setImageWhens(normal: [UIImage(named: "favorite")], selectedTintColor: UIColor.purple, disabledTintColor: UIColor.gray)
@@ -63,6 +64,10 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         }
         
         setUpFlowLayout()
+    }
+    
+    func initFilterOptions(filterTypeView: FilterTypeView) {
+        fatalError("Must override initImagePath")
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -105,9 +110,9 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         collectionView?.reloadData()
     }
     
-    func applyFilter(filters: Array<String>!) {
+    func applyFilter(filters: Array<Int>!) {
        resetImageList(path: plistPath)
-        if(!filters.contains("None"))
+        if(!filters.contains(0))
         {
             imageList = imageList.filter {
                 let cellDict = $0 as! NSDictionary
@@ -115,13 +120,17 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
                 
                 let canDisplayedImage = imageTags.filter {
                     let tag = $0 as! String
-                    return filters.contains(tag)
+                    return filters.map{ getFilterName(index: $0)}.contains(tag)
                 }
                 
                 return !canDisplayedImage.isEmpty
                 } as NSArray
         }
         collectionView?.reloadData()
+    }
+    
+    func getFilterName(index: Int) -> String {
+        fatalError("Must override initImagePath")
     }
     
     func resetImageList(path: String) {
