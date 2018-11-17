@@ -12,7 +12,7 @@ import UIKit
 class PhotoCollectionView: UIImageView {
     init(frame: CGRect, with labelText: String,photoImage: UIImage, frameImage: UIImage) {
         super.init(frame: frame)
-        let photoView = UIImageView(frame: CGRect(x: 35, y: 65, width: frame.size.width-60, height: frame.size.height-120))
+        let photoView = UIImageView(frame: CGRect(x: 20, y: 55, width: frame.size.width-40, height: frame.size.height-110))
         photoView.image = photoImage
         self.addSubview(photoView);
         self.bringSubviewToFront(photoView)

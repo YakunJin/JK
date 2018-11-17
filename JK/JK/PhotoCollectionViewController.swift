@@ -79,7 +79,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         cell.backgroundView = PhotoCollectionView(frame: cell.frame,
                                                   with: cellDict["desc"] as! String,
                                                   photoImage: originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: cell.frame.size.width-5, height: cell.frame.size.height-5)),
-                                                  frameImage: UIImage(named: "frame4")!)
+                                                  frameImage: UIImage(named: "frame5")!)
         return cell;
     }
     
