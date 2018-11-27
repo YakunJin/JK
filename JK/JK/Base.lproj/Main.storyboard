@@ -78,27 +78,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhK-ch-fOB">
-                                <rect key="frame" x="0.0" y="-60" width="414" height="736"/>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mhK-ch-fOB">
+                                <rect key="frame" x="0.0" y="80" width="414" height="456"/>
                                 <color key="backgroundColor" red="0.010949643780000001" green="0.010949643780000001" blue="0.010949643780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhg-Rl-YNg">
+                                <rect key="frame" x="10" y="566" width="394" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="mhK-ch-fOB" secondAttribute="bottom" id="42U-b1-hBm"/>
+                            <constraint firstItem="vhg-Rl-YNg" firstAttribute="top" secondItem="mhK-ch-fOB" secondAttribute="bottom" constant="30" id="2rN-zR-C9V"/>
+                            <constraint firstItem="vhg-Rl-YNg" firstAttribute="bottom" secondItem="tN3-MS-1SL" secondAttribute="bottom" constant="-50" id="FyJ-ff-4CX"/>
+                            <constraint firstAttribute="bottom" secondItem="mhK-ch-fOB" secondAttribute="bottom" constant="200" id="Rsp-rh-wGa"/>
                             <constraint firstAttribute="trailing" secondItem="mhK-ch-fOB" secondAttribute="trailing" id="ct7-C7-qWS"/>
-                            <constraint firstItem="mhK-ch-fOB" firstAttribute="top" secondItem="tN3-MS-1SL" secondAttribute="top" id="mOo-QH-TI9"/>
+                            <constraint firstItem="mhK-ch-fOB" firstAttribute="top" secondItem="tN3-MS-1SL" secondAttribute="top" constant="80" id="mOo-QH-TI9"/>
                             <constraint firstItem="mhK-ch-fOB" firstAttribute="leading" secondItem="tN3-MS-1SL" secondAttribute="leading" id="oh1-lH-Pk9"/>
+                            <constraint firstItem="vhg-Rl-YNg" firstAttribute="trailing" secondItem="mhK-ch-fOB" secondAttribute="trailing" constant="-10" id="rzz-6A-r4J"/>
+                            <constraint firstItem="vhg-Rl-YNg" firstAttribute="leading" secondItem="mhK-ch-fOB" secondAttribute="leading" constant="10" id="yKN-ty-9nL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jnA-iq-Sr8"/>
                     </view>
                     <connections>
+                        <outlet property="imageDesc" destination="vhg-Rl-YNg" id="Vog-dx-IeF"/>
                         <outlet property="imageView" destination="mhK-ch-fOB" id="iX2-dW-K3U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MCk-Wx-0Tz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1342" y="-79"/>
+            <point key="canvasLocation" x="1340.5797101449277" y="-79.076086956521749"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="3vw-OM-8HS">

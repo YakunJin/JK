@@ -15,7 +15,7 @@ class ManicureCollectionController: PhotoCollectionViewController {
     }
     
     override func initFilterOptions(filterTypeView: FilterTypeView) {
-        filterTypeView.initSegmentView(segmentOptions: ["全部", "狗", "兔子", "其他"],
+        filterTypeView.initSegmentView(segmentOptions: ["全部", "Chinese", "Europe", "Japan"],
                                    segmentSelectionImages: ["target_light", "target_light", "handbag_light", "globe_light"])
     }
     

@@ -11,6 +11,7 @@ import UIKit
 
 class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageDesc: UILabel!
     override func viewDidLoad() {
         let singleTap = UITapGestureRecognizer(target:self, action:#selector(PhotoDetailViewController.tapDetected));
         imageView.isUserInteractionEnabled = true;

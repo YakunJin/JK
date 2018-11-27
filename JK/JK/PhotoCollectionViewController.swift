@@ -80,9 +80,9 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifier, for: indexPath);
         let row = (indexPath as NSIndexPath).row;
         let cellDict = imageList[row] as! NSDictionary;
-        let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
+        let imagePath = String(format: "%@.jpeg", cellDict["path"] as! String);
         cell.backgroundView = PhotoCollectionView(frame: cell.frame,
-                                                  with: cellDict["desc"] as! String,
+                                                  with: cellDict["name"] as! String,
                                                   photoImage: originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: cell.frame.size.width-5, height: cell.frame.size.height-5)),
                                                   frameImage: UIImage(named: "frame5")!)
         return cell;
@@ -95,9 +95,10 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
                 let photoDetailController = segue.destination as! PhotoDetailViewController;
                 let row = selectedIndexPath.row;
                 let cellDict = imageList[row] as! NSDictionary;
-                let imagePath = String(format: "%@.jpeg", cellDict["name"] as! String);
+                let imagePath = String(format: "%@.jpeg", cellDict["path"] as! String);
                 collectionView?.addSubview(photoDetailController.view); //add subview before set value for outlet imageView
                 photoDetailController.imageView.image = originalImageScaleToSize(originImage: UIImage.init(named: imagePath)!, withScaleSize: CGSize(width: screenWidth, height: screenWidth));
+                photoDetailController.imageDesc.text = cellDict["desc"] as! String
             }
         }
     }
