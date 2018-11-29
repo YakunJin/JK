@@ -35,6 +35,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     }
 
     override func viewDidLoad() {
+        UIApplication.shared.statusBarStyle = .lightContent
         initImagePath()
         resetImageList(path: plistPath)
         
@@ -54,6 +55,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
             filterView.setLabelColorWhen(normal: FF00FF, selected: UIColor.purple, disabled: UIColor.gray)
             filterView.setLabelFontWhen(normal: .systemFont(ofSize: 12), selected: .systemFont(ofSize: 12), disabled: .systemFont(ofSize: 12))
             filterView.backgroundColor = UIColor.black
+            filterView.alpha = 0.95
             filterView.setBackgroundColor(color: UIColor.black)
             filterView.backgroundBlurEnabled = true
             filterView.blurEffectStyle = .extraLight
@@ -65,6 +67,8 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         
         setUpFlowLayout()
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {return .lightContent}
     
     func initFilterOptions(filterTypeView: FilterTypeView) {
         fatalError("Must override initImagePath")
