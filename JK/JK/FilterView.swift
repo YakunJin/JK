@@ -48,19 +48,6 @@ class FilterTypeView: YNDropDownView {
         self.initViews()
     }
     
-    @IBAction func confirmButtonClicked(_ sender: Any) {
-//        self.changeMenu(title: builtDateSegmentControl.titleForSegment(at: builtDateSegmentControl.selectedSegmentIndex)!, at: 0)
-        ImageService.imageServiceInstance.filterList = Array<Int>()
-        ImageService.imageServiceInstance.filterList.append(segmentView.selectedSegmentIndex)
-        ImageService.imageServiceInstance.applyFilter()
-        
-        self.hideMenu()
-        
-    }
-    @IBAction func cancelButtonClicked(_ sender: Any) {
-        self.hideMenu()
-        
-    }
     func initViews() {
         let appearance = SMSegmentAppearance()
         appearance.segmentOnSelectionColour = UIColor.lightGray
@@ -71,9 +58,18 @@ class FilterTypeView: YNDropDownView {
         appearance.titleOffSelectionFont = UIFont.systemFont(ofSize: 12.0)
         appearance.contentVerticalMargin = 10.0
         
-        segmentView = SMSegmentView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width/3, height: self.frame.size.height-50), dividerColour: UIColor(white: 0.95, alpha: 0.3), dividerWidth: 1.0, segmentAppearance: appearance)
+        segmentView = SMSegmentView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width/3, height: self.frame.size.height), dividerColour: UIColor(white: 0.95, alpha: 0.3), dividerWidth: 1.0, segmentAppearance: appearance)
         segmentView.organiseMode = .vertical
+        segmentView.addTarget(self, action: #selector(FilterTypeView.onSelectSegment), for: .valueChanged)
         self.addSubview(segmentView)
+    }
+    
+    @objc func onSelectSegment(){
+        ImageService.imageServiceInstance.filterList = Array<Int>()
+        ImageService.imageServiceInstance.filterList.append(segmentView.selectedSegmentIndex)
+        ImageService.imageServiceInstance.applyFilter()
+        
+        self.hideMenu()
     }
     
     func initSegmentView(segmentOptions:[String], segmentSelectionImages: [String]) {
