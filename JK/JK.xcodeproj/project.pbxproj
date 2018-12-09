@@ -113,7 +113,7 @@
 		A93B0029213BFC8B00600ADE /* JKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKUITests.m; sourceTree = "<group>"; };
 		A93B002B213BFC8B00600ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93B003E213C0C4B00600ADE /* ManicureList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ManicureList.plist; sourceTree = "<group>"; };
-		A93BFFFF213BFC8900600ADE /* JK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93BFFFF213BFC8900600ADE /* 梧桐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "梧桐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A970EFD5217B680D0077E8B9 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		A970EFD9217C83C40077E8B9 /* FilterViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViews.xib; sourceTree = "<group>"; };
 		A9A6DC96219B017700699E3C /* PhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		A93B0000213BFC8900600ADE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A93BFFFF213BFC8900600ADE /* JK.app */,
+				A93BFFFF213BFC8900600ADE /* 梧桐.app */,
 				A93B001A213BFC8B00600ADE /* JKTests.xctest */,
 				A93B0025213BFC8B00600ADE /* JKUITests.xctest */,
 			);
@@ -390,7 +390,7 @@
 			);
 			name = JK;
 			productName = JK;
-			productReference = A93BFFFF213BFC8900600ADE /* JK.app */;
+			productReference = A93BFFFF213BFC8900600ADE /* 梧桐.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -795,7 +795,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "JK-Studio.JK";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "梧桐";
 				SWIFT_OBJC_BRIDGING_HEADER = "JK/JK-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -817,7 +817,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "JK-Studio.JK";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "梧桐";
 				SWIFT_OBJC_BRIDGING_HEADER = "JK/JK-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
