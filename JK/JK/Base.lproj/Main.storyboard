@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Manicure-->
+        <!--美甲-->
         <scene sceneID="A3d-wx-zgg">
             <objects>
                 <collectionViewController id="BXE-fa-U8R" customClass="ManicureCollectionController" customModule="JK" customModuleProvider="target" sceneMemberID="viewController">
@@ -64,7 +64,7 @@
                             <outlet property="delegate" destination="BXE-fa-U8R" id="Sf4-7s-0U6"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Manicure" image="manicure" landscapeImage="manicure" largeContentSizeImage="manicure" selectedImage="manicure" id="YHA-cl-HB5"/>
+                    <tabBarItem key="tabBarItem" title="美甲" image="manicure" landscapeImage="manicure" largeContentSizeImage="manicure" selectedImage="manicure" id="YHA-cl-HB5"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ehy-9N-w8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -132,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="-353.62318840579712" y="-140.21739130434784"/>
         </scene>
-        <!--Eyelashes-->
+        <!--美睫-->
         <scene sceneID="TtR-iI-8hc">
             <objects>
                 <collectionViewController id="86B-E8-dux" customClass="EyelashesCollectionController" customModule="JK" customModuleProvider="target" sceneMemberID="viewController">
@@ -186,7 +186,7 @@
                             <outlet property="delegate" destination="86B-E8-dux" id="B34-Na-4Hr"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Eyelashes" image="eyeslashes" landscapeImage="eyeslashes" largeContentSizeImage="eyeslashes" selectedImage="eyeslashes" id="CCu-11-UMN"/>
+                    <tabBarItem key="tabBarItem" title="美睫" image="eyeslashes" landscapeImage="eyeslashes" largeContentSizeImage="eyeslashes" selectedImage="eyeslashes" id="CCu-11-UMN"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6n-y4-VYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -199,6 +199,6 @@
         <image name="manicure" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uCk-OV-dTg"/>
+        <segue reference="0kK-R3-dKV"/>
     </inferredMetricsTieBreakers>
 </document>
