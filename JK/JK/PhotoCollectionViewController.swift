@@ -35,7 +35,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
     }
 
     override func viewDidLoad() {
-        UIApplication.shared.statusBarStyle = .lightContent
+//        UIApplication.shared.statusBarStyle = .lightContent
         initImagePath()
         resetImageList(path: plistPath)
         
@@ -68,7 +68,7 @@ class PhotoCollectionViewController: UICollectionViewController, ImageServiceDel
         setUpFlowLayout()
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {return .lightContent}
+//    override var preferredStatusBarStyle: UIStatusBarStyle {return .lightContent}
     
     func initFilterOptions(filterTypeView: FilterTypeView) {
         fatalError("Must override initImagePath")
